@@ -55,8 +55,8 @@
   </registry>
   <node concept="1TIwiD" id="1u89nBaZcNq">
     <property role="EcuMT" value="1695646464731827418" />
-    <property role="TrG5h" value="ComponentDescription" />
-    <property role="34LRSv" value="ComponentDescription" />
+    <property role="TrG5h" value="Component" />
+    <property role="34LRSv" value="Component" />
     <property role="R4oN_" value="Component Representation" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -141,14 +141,14 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
     <node concept="1TJgyj" id="1u89nBaZezs" role="1TKVEi">
       <property role="IQ2ns" value="1695646464731834588" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="source" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNt">
@@ -236,7 +236,7 @@
   </node>
   <node concept="1TIwiD" id="1u89nBaZj2T">
     <property role="EcuMT" value="1695646464731852985" />
-    <property role="TrG5h" value="RefPackage" />
+    <property role="TrG5h" value="PackageRef" />
     <property role="3GE5qa" value="References" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1u89nBaZj2V" role="PzmwI">
@@ -270,7 +270,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="components" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5S9zKKpPwQe" resolve="IComponent" />
+      <ref role="20lvS9" node="5g8KHvCW0FI" resolve="IComponentInst" />
     </node>
     <node concept="1TJgyj" id="5S9zKKpPwQx" role="1TKVEi">
       <property role="IQ2ns" value="6776104396491460001" />
@@ -303,23 +303,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="refPorts" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5S9zKKpPYgy" resolve="RefPort" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5S9zKKpPYgy">
-    <property role="EcuMT" value="6776104396491580450" />
-    <property role="TrG5h" value="RefPort" />
-    <property role="3GE5qa" value="References" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5S9zKKpPYgz" role="PzmwI">
-      <ref role="PrY4T" node="1u89nBaZcNu" resolve="IPort" />
-    </node>
-    <node concept="1TJgyj" id="5S9zKKpPYg_" role="1TKVEi">
-      <property role="IQ2ns" value="6776104396491580453" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="refport" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCVUoK">
@@ -343,12 +327,19 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5g8KHvCW185" resolve="PropertyTarget" />
     </node>
+    <node concept="1TJgyj" id="30W4IWrNIUJ" role="1TKVEi">
+      <property role="IQ2ns" value="3475673830596210351" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="refPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+    </node>
     <node concept="1TJgyj" id="5g8KHvCW32w" role="1TKVEi">
       <property role="IQ2ns" value="6055303931581444256" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="componentDescription" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1u89nBaZcNq" resolve="ComponentDescription" />
+      <ref role="20lvS9" node="1u89nBaZcNq" resolve="Component" />
     </node>
   </node>
   <node concept="PlHQZ" id="5g8KHvCW0FI">
@@ -393,6 +384,19 @@
     <property role="EcuMT" value="6055303931582182326" />
     <property role="TrG5h" value="LifeCycle" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="30W4IWrNIUo">
+    <property role="EcuMT" value="3475673830596210328" />
+    <property role="3GE5qa" value="References" />
+    <property role="TrG5h" value="IPortRef" />
+    <property role="R4oN_" value="References a port inside a component instance" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="30W4IWrNIUp" role="1TKVEi">
+      <property role="IQ2ns" value="3475673830596210329" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="port" />
+      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+    </node>
   </node>
 </model>
 

@@ -22,9 +22,13 @@
       </concept>
     </language>
     <language id="218e40b4-75d4-4de8-83e6-b31e4da8bcee" name="Component">
+      <concept id="3475673830596210328" name="Component.structure.IPortInstRef" flags="ng" index="FWJLR">
+        <reference id="3475673830596210329" name="port" index="FWJLQ" />
+      </concept>
       <concept id="6055303931582182326" name="Component.structure.LifeCycle" flags="ng" index="2WWV5x" />
       <concept id="6055303931581434605" name="Component.structure.ComponentInst" flags="ng" index="2WYcwU">
         <reference id="6055303931581444256" name="componentDescription" index="2WYf9R" />
+        <child id="3475673830596210351" name="refPorts" index="FWJL0" />
         <child id="6055303931581444254" name="mutableProperties" index="2WYf99" />
       </concept>
       <concept id="6055303931581436421" name="Component.structure.PropertyTarget" flags="ng" index="2WYd3i">
@@ -37,6 +41,7 @@
       <concept id="1695646464731827429" name="Component.structure.OutputPort" flags="ng" index="3tteAs" />
       <concept id="1695646464731827419" name="Component.structure.System" flags="ng" index="3tteAy">
         <child id="1695646464731852539" name="components" index="3ttgI2" />
+        <child id="1695646464731852542" name="connections" index="3ttgI7" />
       </concept>
       <concept id="1695646464731827418" name="Component.structure.ComponentDescription" flags="ng" index="3tteAz">
         <child id="6055303931582182327" name="lifeCycle" index="2WWV5w" />
@@ -44,6 +49,10 @@
         <child id="1695646464731834599" name="properties" index="3ttcQu" />
       </concept>
       <concept id="1695646464731827421" name="Component.structure.InputPort" flags="ng" index="3tteA$" />
+      <concept id="1695646464731827420" name="Component.structure.Connection" flags="ng" index="3tteA_">
+        <reference id="1695646464731834585" name="target" index="3ttcQw" />
+        <reference id="1695646464731834588" name="source" index="3ttcQ_" />
+      </concept>
       <concept id="1695646464731827422" name="Component.structure.IPort" flags="ng" index="3tteAB">
         <child id="6776104396491580446" name="type" index="17RAGi" />
       </concept>
@@ -104,6 +113,12 @@
           <property role="3clFbU" value="true" />
         </node>
       </node>
+      <node concept="FWJLR" id="30W4IWrPdf2" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="30W4IWrPdf3" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
+      </node>
     </node>
     <node concept="2WYcwU" id="5g8KHvCYNDo" role="3ttgI2">
       <property role="TrG5h" value="Gazebo2" />
@@ -129,6 +144,17 @@
           <property role="3clFbU" value="false" />
         </node>
       </node>
+      <node concept="FWJLR" id="30W4IWrPdeY" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="30W4IWrPdeZ" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
+      </node>
+    </node>
+    <node concept="3tteA_" id="30W4IWrQp8u" role="3ttgI7">
+      <property role="TrG5h" value="sss" />
+      <ref role="3ttcQw" node="30W4IWrPdeY" />
+      <ref role="3ttcQ_" node="30W4IWrPdf3" />
     </node>
   </node>
 </model>

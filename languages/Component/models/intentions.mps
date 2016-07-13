@@ -137,7 +137,7 @@
   </registry>
   <node concept="2S6QgY" id="5g8KHvCWPOH">
     <property role="3GE5qa" value="Instances" />
-    <property role="TrG5h" value="FixInconsistentInstanceFields" />
+    <property role="TrG5h" value="FixInconsistentInstance" />
     <property role="2ZfUl3" value="true" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="l1zz:5g8KHvCW0FH" resolve="ComponentInst" />
@@ -145,7 +145,7 @@
       <node concept="3clFbS" id="5g8KHvCWPOJ" role="2VODD2">
         <node concept="3clFbF" id="4LsNulDhFZt" role="3cqZAp">
           <node concept="Xl_RD" id="4LsNulDhFZs" role="3clFbG">
-            <property role="Xl_RC" value="Fix inconsistent instance fields" />
+            <property role="Xl_RC" value="Fix inconsistent instance" />
           </node>
         </node>
       </node>
@@ -157,6 +157,24 @@
             <node concept="2Sf5sV" id="5g8KHvCWT4q" role="2Oq$k0" />
             <node concept="2qgKlT" id="5g8KHvCWTjM" role="2OqNvi">
               <ref role="37wK5l" to="6lc0:4LsNulDhxXU" resolve="updatePropertyTargets" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="30W4IWrOAJh" role="3cqZAp">
+          <node concept="3clFbS" id="30W4IWrOAJj" role="3clFbx">
+            <node concept="3clFbF" id="30W4IWrOBdK" role="3cqZAp">
+              <node concept="2OqwBi" id="30W4IWrOBke" role="3clFbG">
+                <node concept="2Sf5sV" id="30W4IWrOBdI" role="2Oq$k0" />
+                <node concept="2qgKlT" id="30W4IWrOBt5" role="2OqNvi">
+                  <ref role="37wK5l" to="6lc0:30W4IWrO1FH" resolve="updatePorts" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="30W4IWrOAWn" role="3clFbw">
+            <node concept="2Sf5sV" id="30W4IWrOANQ" role="2Oq$k0" />
+            <node concept="2qgKlT" id="30W4IWrOB9e" role="2OqNvi">
+              <ref role="37wK5l" to="6lc0:30W4IWrNNl2" resolve="updatePortsNeeded" />
             </node>
           </node>
         </node>
@@ -174,7 +192,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="5g8KHvCXqqC" role="3cqZAp" />
-        <node concept="3clFbH" id="5g8KHvCXqY8" role="3cqZAp" />
         <node concept="3clFbJ" id="5g8KHvCSrg_" role="3cqZAp">
           <node concept="3clFbS" id="5g8KHvCSrgB" role="3clFbx">
             <node concept="3cpWs6" id="5g8KHvCStBH" role="3cqZAp">
@@ -191,6 +208,24 @@
               </node>
             </node>
             <node concept="3w_OXm" id="5g8KHvCSCbR" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="30W4IWrOvcw" role="3cqZAp">
+          <node concept="3clFbS" id="30W4IWrOvcy" role="3clFbx">
+            <node concept="3cpWs6" id="30W4IWrO_s4" role="3cqZAp">
+              <node concept="3clFbT" id="30W4IWrO_Pa" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="30W4IWrOyrq" role="3clFbw">
+            <node concept="2OqwBi" id="30W4IWrOw7$" role="2Oq$k0">
+              <node concept="2Sf5sV" id="30W4IWrOvB0" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="30W4IWrOwCo" role="2OqNvi">
+                <ref role="3TtcxE" to="l1zz:30W4IWrNIUJ" />
+              </node>
+            </node>
+            <node concept="1v1jN8" id="30W4IWrO_35" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbJ" id="5g8KHvCSuvH" role="3cqZAp">
@@ -223,6 +258,21 @@
             <node concept="2Sf5sV" id="5g8KHvCTGgk" role="2Oq$k0" />
             <node concept="2qgKlT" id="5g8KHvCWSH4" role="2OqNvi">
               <ref role="37wK5l" to="6lc0:2$$sQOBexmv" resolve="updateIsNeeded" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="30W4IWrOrKi" role="3cqZAp">
+          <node concept="3clFbS" id="30W4IWrOrKk" role="3clFbx">
+            <node concept="3cpWs6" id="30W4IWrOu1G" role="3cqZAp">
+              <node concept="3clFbT" id="30W4IWrOupV" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="30W4IWrOswi" role="3clFbw">
+            <node concept="2Sf5sV" id="30W4IWrOsah" role="2Oq$k0" />
+            <node concept="2qgKlT" id="30W4IWrOt0G" role="2OqNvi">
+              <ref role="37wK5l" to="6lc0:30W4IWrNNl2" resolve="updatePortsNeeded" />
             </node>
           </node>
         </node>

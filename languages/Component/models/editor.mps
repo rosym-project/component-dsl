@@ -162,7 +162,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1u89nBaZj2m">
-    <ref role="1XX52x" to="l1zz:1u89nBaZcNq" resolve="ComponentDescription" />
+    <ref role="1XX52x" to="l1zz:1u89nBaZcNq" resolve="Component" />
     <node concept="3EZMnI" id="5g8KHvCYcE9" role="2wV5jI">
       <node concept="3EZMnI" id="5g8KHvCYkpd" role="3EZMnx">
         <node concept="VPM3Z" id="5g8KHvCYkpf" role="3F10Kt">
@@ -609,19 +609,6 @@
       <node concept="l2Vlx" id="5S9zKKpPWwE" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5S9zKKpPYgH">
-    <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l1zz:5S9zKKpPYgy" resolve="RefPort" />
-    <node concept="1iCGBv" id="5S9zKKpPYgJ" role="2wV5jI">
-      <ref role="1NtTu8" to="l1zz:5S9zKKpPYg_" />
-      <node concept="1sVBvm" id="5S9zKKpPYgL" role="1sWHZn">
-        <node concept="3F0A7n" id="5S9zKKpPYgV" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5g8KHvCW18h">
     <ref role="1XX52x" to="l1zz:5g8KHvCW185" resolve="PropertyTarget" />
     <node concept="3EZMnI" id="5g8KHvCW18j" role="2wV5jI">
@@ -651,6 +638,9 @@
       </node>
       <node concept="3F0A7n" id="2$$sQOBgiAW" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VQ3r3" id="5g8KHvCZ5Nh" role="3F10Kt">
+          <property role="2USNnj" value="2" />
+        </node>
       </node>
       <node concept="3F0ifn" id="5g8KHvCYNNl" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -839,6 +829,16 @@
     <ref role="1XX52x" to="l1zz:5g8KHvCYReQ" resolve="LifeCycle" />
     <node concept="3F0ifn" id="5g8KHvCYVfx" role="2wV5jI">
       <property role="3F0ifm" value="LifeCycleTodo" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="30W4IWrNIUx">
+    <property role="3GE5qa" value="References" />
+    <ref role="1XX52x" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+    <node concept="1iCGBv" id="30W4IWrNIUz" role="2wV5jI">
+      <ref role="1NtTu8" to="l1zz:30W4IWrNIUp" />
+      <node concept="1sVBvm" id="30W4IWrNIU_" role="1sWHZn">
+        <node concept="3SHvHV" id="30W4IWrNIUG" role="2wV5jI" />
+      </node>
     </node>
   </node>
 </model>
