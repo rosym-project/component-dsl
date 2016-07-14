@@ -229,7 +229,7 @@
   </node>
   <node concept="13h7C7" id="1u89nBaZj44">
     <property role="3GE5qa" value="References" />
-    <ref role="13h7C2" to="l1zz:1u89nBaZj2T" resolve="RefPackage" />
+    <ref role="13h7C2" to="l1zz:1u89nBaZj2T" resolve="PackageRef" />
     <node concept="13hLZK" id="1u89nBaZj45" role="13h7CW">
       <node concept="3clFbS" id="1u89nBaZj46" role="2VODD2" />
     </node>
@@ -626,12 +626,12 @@
                   <node concept="3cpWsn" id="30W4IWrO4kD" role="3cpWs9">
                     <property role="TrG5h" value="tmpPort" />
                     <node concept="3Tqbb2" id="30W4IWrO4kE" role="1tU5fm">
-                      <ref role="ehGHo" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+                      <ref role="ehGHo" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
                     </node>
                     <node concept="2ShNRf" id="30W4IWrO4kF" role="33vP2m">
                       <node concept="3zrR0B" id="30W4IWrO4kG" role="2ShVmc">
                         <node concept="3Tqbb2" id="30W4IWrO4kH" role="3zrR0E">
-                          <ref role="ehGHo" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+                          <ref role="ehGHo" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
                         </node>
                       </node>
                     </node>
@@ -689,12 +689,12 @@
           <node concept="3cpWsn" id="30W4IWrO81Y" role="3cpWs9">
             <property role="TrG5h" value="portRefsToRemove" />
             <node concept="2I9FWS" id="30W4IWrO81Z" role="1tU5fm">
-              <ref role="2I9WkF" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+              <ref role="2I9WkF" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
             </node>
             <node concept="2ShNRf" id="30W4IWrO820" role="33vP2m">
               <node concept="2T8Vx0" id="30W4IWrO821" role="2ShVmc">
                 <node concept="2I9FWS" id="30W4IWrO822" role="2T96Bj">
-                  <ref role="2I9WkF" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+                  <ref role="2I9WkF" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
                 </node>
               </node>
             </node>
@@ -1551,7 +1551,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="5g8KHvCXwks">
-    <ref role="13h7C2" to="l1zz:1u89nBaZcNq" resolve="ComponentDescription" />
+    <ref role="13h7C2" to="l1zz:1u89nBaZcNq" resolve="Component" />
     <node concept="13hLZK" id="5g8KHvCXwkt" role="13h7CW">
       <node concept="3clFbS" id="5g8KHvCXwku" role="2VODD2">
         <node concept="3clFbF" id="5g8KHvCXwQF" role="3cqZAp">

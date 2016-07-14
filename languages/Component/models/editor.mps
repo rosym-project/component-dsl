@@ -358,7 +358,7 @@
   </node>
   <node concept="24kQdi" id="1u89nBaZXLt">
     <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l1zz:1u89nBaZj2T" resolve="RefPackage" />
+    <ref role="1XX52x" to="l1zz:1u89nBaZj2T" resolve="PackageRef" />
     <node concept="1iCGBv" id="45p21F8r5z4" role="2wV5jI">
       <ref role="1NtTu8" to="l1zz:1u89nBaZj2Y" />
       <node concept="1sVBvm" id="45p21F8r5z6" role="1sWHZn">
@@ -593,7 +593,7 @@
     <ref role="1XX52x" to="l1zz:5S9zKKpPWwj" resolve="ProxyPort" />
     <node concept="3EZMnI" id="5S9zKKpPWwB" role="2wV5jI">
       <node concept="3F0ifn" id="5S9zKKpQ9RX" role="3EZMnx">
-        <property role="3F0ifm" value="exposing " />
+        <property role="3F0ifm" value="exposing" />
       </node>
       <node concept="3F2HdR" id="5S9zKKpQ9S3" role="3EZMnx">
         <property role="2czwfO" value="," />
@@ -605,6 +605,15 @@
       </node>
       <node concept="3F0A7n" id="5S9zKKpQ9Sq" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4QWlgMFlFSi" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;" />
+      </node>
+      <node concept="3F1sOY" id="4QWlgMFlFSy" role="3EZMnx">
+        <ref role="1NtTu8" to="l1zz:5S9zKKpPYgu" />
+      </node>
+      <node concept="3F0ifn" id="4QWlgMFlFSO" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
       </node>
       <node concept="l2Vlx" id="5S9zKKpPWwE" role="2iSdaV" />
     </node>
@@ -833,11 +842,21 @@
   </node>
   <node concept="24kQdi" id="30W4IWrNIUx">
     <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l1zz:30W4IWrNIUo" resolve="IPortInstRef" />
+    <ref role="1XX52x" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
     <node concept="1iCGBv" id="30W4IWrNIUz" role="2wV5jI">
       <ref role="1NtTu8" to="l1zz:30W4IWrNIUp" />
       <node concept="1sVBvm" id="30W4IWrNIU_" role="1sWHZn">
         <node concept="3SHvHV" id="30W4IWrNIUG" role="2wV5jI" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4QWlgMFkCET">
+    <property role="3GE5qa" value="References" />
+    <ref role="1XX52x" to="l1zz:4QWlgMFizOO" resolve="SmartRef_IPortRef" />
+    <node concept="1iCGBv" id="4QWlgMFkCEV" role="2wV5jI">
+      <ref role="1NtTu8" to="l1zz:4QWlgMFizOP" />
+      <node concept="1sVBvm" id="4QWlgMFkCEX" role="1sWHZn">
+        <node concept="3SHvHV" id="4QWlgMFkCF4" role="2wV5jI" />
       </node>
     </node>
   </node>

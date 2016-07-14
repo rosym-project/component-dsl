@@ -11,6 +11,7 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -258,6 +259,7 @@
     <property role="EcuMT" value="6776104396491459981" />
     <property role="TrG5h" value="Composite" />
     <property role="34LRSv" value="Composite" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5S9zKKpPwQm" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -303,7 +305,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="refPorts" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+      <ref role="20lvS9" node="4QWlgMFizOO" resolve="SmartRef_IPortRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCVUoK">
@@ -358,6 +360,13 @@
     <node concept="PrWs8" id="5g8KHvCW0FO" role="PzmwI">
       <ref role="PrY4T" node="5g8KHvCW0FI" resolve="IComponentInst" />
     </node>
+    <node concept="1TJgyj" id="4QWlgMFi2Ne" role="1TKVEi">
+      <property role="IQ2ns" value="5601445549443656910" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="compositeDescription" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5S9zKKpPwQd" resolve="Composite" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCW185">
     <property role="EcuMT" value="6055303931581436421" />
@@ -395,7 +404,21 @@
       <property role="IQ2ns" value="3475673830596210329" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="port" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4QWlgMFizOO">
+    <property role="EcuMT" value="5601445549443792180" />
+    <property role="3GE5qa" value="References" />
+    <property role="TrG5h" value="SmartRef_IPortRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4QWlgMFizOP" role="1TKVEi">
+      <property role="IQ2ns" value="5601445549443792181" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="smartref" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
   </node>
 </model>

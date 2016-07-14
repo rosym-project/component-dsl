@@ -22,7 +22,7 @@
       </concept>
     </language>
     <language id="218e40b4-75d4-4de8-83e6-b31e4da8bcee" name="Component">
-      <concept id="3475673830596210328" name="Component.structure.IPortInstRef" flags="ng" index="FWJLR">
+      <concept id="3475673830596210328" name="Component.structure.IPortRef" flags="ng" index="FWJLR">
         <reference id="3475673830596210329" name="port" index="FWJLQ" />
       </concept>
       <concept id="6055303931582182326" name="Component.structure.LifeCycle" flags="ng" index="2WWV5x" />
@@ -35,6 +35,13 @@
         <reference id="6055303931581436424" name="property" index="2WYd3v" />
         <child id="6055303931581436422" name="valueExp" index="2WYd3h" />
       </concept>
+      <concept id="6776104396491573267" name="Component.structure.ProxyPort" flags="ng" index="17R$sv">
+        <child id="6776104396491580478" name="refPorts" index="17RAGM" />
+      </concept>
+      <concept id="6776104396491459981" name="Component.structure.Composite" flags="ng" index="17RSa1">
+        <child id="6776104396491459999" name="components" index="17RSaj" />
+        <child id="6776104396491460001" name="proxyPorts" index="17RSaH" />
+      </concept>
       <concept id="1695646464731827434" name="Component.structure.Property" flags="ng" index="3tteAj">
         <child id="1695646464731834559" name="type" index="3ttcR6" />
       </concept>
@@ -43,7 +50,7 @@
         <child id="1695646464731852539" name="components" index="3ttgI2" />
         <child id="1695646464731852542" name="connections" index="3ttgI7" />
       </concept>
-      <concept id="1695646464731827418" name="Component.structure.ComponentDescription" flags="ng" index="3tteAz">
+      <concept id="1695646464731827418" name="Component.structure.Component" flags="ng" index="3tteAz">
         <child id="6055303931582182327" name="lifeCycle" index="2WWV5w" />
         <child id="1695646464731834604" name="ports" index="3ttcQl" />
         <child id="1695646464731834599" name="properties" index="3ttcQu" />
@@ -55,6 +62,9 @@
       </concept>
       <concept id="1695646464731827422" name="Component.structure.IPort" flags="ng" index="3tteAB">
         <child id="6776104396491580446" name="type" index="17RAGi" />
+      </concept>
+      <concept id="5601445549443792180" name="Component.structure.SmartRef_IPortRef" flags="ng" index="3AXAwS">
+        <reference id="5601445549443792181" name="smartref" index="3AXAwT" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -79,7 +89,7 @@
     </node>
     <node concept="3tteA$" id="5g8KHvCYcDw" role="3ttcQl">
       <property role="TrG5h" value="in" />
-      <node concept="10P55v" id="5g8KHvCYrlO" role="17RAGi" />
+      <node concept="10P55v" id="4QWlgMFpq5g" role="17RAGi" />
     </node>
     <node concept="3tteAs" id="5g8KHvCYcDF" role="3ttcQl">
       <property role="TrG5h" value="out" />
@@ -155,6 +165,101 @@
       <property role="TrG5h" value="sss" />
       <ref role="3ttcQw" node="30W4IWrPdeY" />
       <ref role="3ttcQ_" node="30W4IWrPdf3" />
+    </node>
+  </node>
+  <node concept="17RSa1" id="4QWlgMFizik">
+    <property role="TrG5h" value="Compoo" />
+    <node concept="17R$sv" id="4QWlgMFlg9b" role="17RSaH">
+      <property role="TrG5h" value="MasterOut" />
+      <node concept="3AXAwS" id="4QWlgMFpyyk" role="17RAGM">
+        <ref role="3AXAwT" node="4QWlgMFiziQ" />
+      </node>
+      <node concept="3AXAwS" id="4QWlgMFpyyo" role="17RAGM">
+        <ref role="3AXAwT" node="4QWlgMFiziR" />
+      </node>
+      <node concept="10P55v" id="4QWlgMFpKBK" role="17RAGi" />
+    </node>
+    <node concept="2WYcwU" id="4QWlgMFizil" role="17RSaj">
+      <property role="TrG5h" value="blaa" />
+      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
+      <node concept="2WYd3i" id="4QWlgMFiziN" role="2WYf99">
+        <property role="TrG5h" value="period" />
+        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="4QWlgMFiziO" role="2WYf99">
+        <property role="TrG5h" value="priority" />
+        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      </node>
+      <node concept="2WYd3i" id="4QWlgMFiziP" role="2WYf99">
+        <property role="TrG5h" value="debug" />
+        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFiziQ" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFiziR" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
+      </node>
+    </node>
+    <node concept="2WYcwU" id="4QWlgMFizjb" role="17RSaj">
+      <property role="TrG5h" value="lala" />
+      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
+      <node concept="2WYd3i" id="4QWlgMFizjz" role="2WYf99">
+        <property role="TrG5h" value="period" />
+        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="4QWlgMFizj$" role="2WYf99">
+        <property role="TrG5h" value="priority" />
+        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      </node>
+      <node concept="2WYd3i" id="4QWlgMFizj_" role="2WYf99">
+        <property role="TrG5h" value="debug" />
+        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFizjA" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFizjB" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
+      </node>
+    </node>
+    <node concept="2WYcwU" id="4QWlgMFmQJa" role="17RSaj">
+      <property role="TrG5h" value="ttt" />
+      <ref role="2WYf9R" node="4QWlgMFmQIw" resolve="test" />
+      <node concept="2WYd3i" id="4QWlgMFmQJ_" role="2WYf99">
+        <property role="TrG5h" value="period" />
+        <ref role="2WYd3v" node="4QWlgMFmQIx" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="4QWlgMFmQJA" role="2WYf99">
+        <property role="TrG5h" value="priority" />
+        <ref role="2WYd3v" node="4QWlgMFmQIz" resolve="priority" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFmQJB" role="FWJL0">
+        <ref role="FWJLQ" node="4QWlgMFmQIA" resolve="intout" />
+      </node>
+      <node concept="FWJLR" id="4QWlgMFmQJC" role="FWJL0">
+        <ref role="FWJLQ" node="4QWlgMFmQIL" resolve="intin" />
+      </node>
+    </node>
+  </node>
+  <node concept="3tteAz" id="4QWlgMFmQIw">
+    <property role="TrG5h" value="test" />
+    <node concept="3tteAj" id="4QWlgMFmQIx" role="3ttcQu">
+      <property role="TrG5h" value="period" />
+      <node concept="10P55v" id="4QWlgMFmQIy" role="3ttcR6" />
+    </node>
+    <node concept="3tteAj" id="4QWlgMFmQIz" role="3ttcQu">
+      <property role="TrG5h" value="priority" />
+      <node concept="10Oyi0" id="4QWlgMFmQI$" role="3ttcR6" />
+    </node>
+    <node concept="2WWV5x" id="4QWlgMFmQI_" role="2WWV5w" />
+    <node concept="3tteAs" id="4QWlgMFmQIA" role="3ttcQl">
+      <property role="TrG5h" value="intout" />
+      <node concept="10Oyi0" id="4QWlgMFpq5c" role="17RAGi" />
+    </node>
+    <node concept="3tteA$" id="4QWlgMFmQIL" role="3ttcQl">
+      <property role="TrG5h" value="intin" />
+      <node concept="10Oyi0" id="4QWlgMFpq5e" role="17RAGi" />
     </node>
   </node>
 </model>
