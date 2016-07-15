@@ -77,7 +77,7 @@
     <property role="TrG5h" value="RTTGazeboEmbedded" />
     <node concept="3tteAj" id="5g8KHvCYcDs" role="3ttcQu">
       <property role="TrG5h" value="period" />
-      <node concept="10P55v" id="5g8KHvCYcDt" role="3ttcR6" />
+      <node concept="10P55v" id="2_foOewAGpR" role="3ttcR6" />
     </node>
     <node concept="3tteAj" id="5g8KHvCYcDu" role="3ttcQu">
       <property role="TrG5h" value="priority" />
@@ -99,37 +99,6 @@
   </node>
   <node concept="3tteAy" id="5g8KHvCYg1P">
     <property role="TrG5h" value="TestSystem" />
-    <node concept="2WYcwU" id="5g8KHvCYg2a" role="3ttgI2">
-      <property role="TrG5h" value="Gazebo1" />
-      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
-      <node concept="2WYd3i" id="5g8KHvCYg2u" role="2WYf99">
-        <property role="TrG5h" value="period" />
-        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
-        <node concept="3b6qkQ" id="5g8KHvCYg2E" role="2WYd3h">
-          <property role="$nhwW" value="0.4" />
-        </node>
-      </node>
-      <node concept="2WYd3i" id="5g8KHvCYg2v" role="2WYf99">
-        <property role="TrG5h" value="priority" />
-        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
-        <node concept="3cmrfG" id="5g8KHvCYg2U" role="2WYd3h">
-          <property role="3cmrfH" value="11" />
-        </node>
-      </node>
-      <node concept="2WYd3i" id="5g8KHvCYKdq" role="2WYf99">
-        <property role="TrG5h" value="debug" />
-        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
-        <node concept="3clFbT" id="5g8KHvCYKdy" role="2WYd3h">
-          <property role="3clFbU" value="true" />
-        </node>
-      </node>
-      <node concept="FWJLR" id="30W4IWrPdf2" role="FWJL0">
-        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
-      </node>
-      <node concept="FWJLR" id="30W4IWrPdf3" role="FWJL0">
-        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
-      </node>
-    </node>
     <node concept="2WYcwU" id="5g8KHvCYNDo" role="3ttgI2">
       <property role="TrG5h" value="Gazebo2" />
       <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
@@ -161,10 +130,50 @@
         <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
       </node>
     </node>
+    <node concept="2WYcwU" id="2_foOewAZYM" role="3ttgI2">
+      <property role="TrG5h" value="Gazebo1" />
+      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
+      <node concept="FWJLR" id="2_foOewAZZu" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDw" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="2_foOewAZZv" role="FWJL0">
+        <ref role="FWJLQ" node="5g8KHvCYcDF" resolve="out" />
+      </node>
+      <node concept="2WYd3i" id="2_foOewB00P" role="2WYf99">
+        <property role="TrG5h" value="debug" />
+        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      </node>
+      <node concept="2WYd3i" id="2_foOewB017" role="2WYf99">
+        <property role="TrG5h" value="priority" />
+        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      </node>
+      <node concept="2WYd3i" id="2_foOewB01u" role="2WYf99">
+        <property role="TrG5h" value="period" />
+        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+      </node>
+    </node>
+    <node concept="2WYcwU" id="2_foOewB06X" role="3ttgI2">
+      <property role="TrG5h" value="ss" />
+      <ref role="2WYf9R" node="4QWlgMFmQIw" resolve="test" />
+      <node concept="2WYd3i" id="2_foOewB07x" role="2WYf99">
+        <property role="TrG5h" value="period" />
+        <ref role="2WYd3v" node="4QWlgMFmQIx" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="2_foOewB07y" role="2WYf99">
+        <property role="TrG5h" value="priority" />
+        <ref role="2WYd3v" node="4QWlgMFmQIz" resolve="priority" />
+      </node>
+      <node concept="FWJLR" id="2_foOewB07z" role="FWJL0">
+        <ref role="FWJLQ" node="4QWlgMFmQIA" resolve="intout" />
+      </node>
+      <node concept="FWJLR" id="2_foOewB07$" role="FWJL0">
+        <ref role="FWJLQ" node="4QWlgMFmQIL" resolve="intin" />
+      </node>
+    </node>
     <node concept="3tteA_" id="30W4IWrQp8u" role="3ttgI7">
       <property role="TrG5h" value="sss" />
       <ref role="3ttcQw" node="30W4IWrPdeY" />
-      <ref role="3ttcQ_" node="30W4IWrPdf3" />
+      <ref role="3ttcQ_" node="2_foOewAZZu" />
     </node>
   </node>
   <node concept="17RSa1" id="4QWlgMFizik">
@@ -255,11 +264,11 @@
     <node concept="2WWV5x" id="4QWlgMFmQI_" role="2WWV5w" />
     <node concept="3tteAs" id="4QWlgMFmQIA" role="3ttcQl">
       <property role="TrG5h" value="intout" />
-      <node concept="10Oyi0" id="4QWlgMFpq5c" role="17RAGi" />
+      <node concept="10Oyi0" id="2_foOewAefT" role="17RAGi" />
     </node>
     <node concept="3tteA$" id="4QWlgMFmQIL" role="3ttcQl">
       <property role="TrG5h" value="intin" />
-      <node concept="10Oyi0" id="4QWlgMFpq5e" role="17RAGi" />
+      <node concept="10Oyi0" id="2_foOewB08X" role="17RAGi" />
     </node>
   </node>
 </model>

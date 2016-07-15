@@ -308,6 +308,7 @@
     <property role="TrG5h" value="check_ComponentInst" />
     <property role="3GE5qa" value="Instances" />
     <node concept="3clFbS" id="5g8KHvCWyRK" role="18ibNy">
+      <node concept="3clFbH" id="2_foOew_QYl" role="3cqZAp" />
       <node concept="2Gpval" id="4LsNulDhyn$" role="3cqZAp">
         <node concept="2GrKxI" id="4LsNulDhyn_" role="2Gsz3X">
           <property role="TrG5h" value="field" />
@@ -772,9 +773,9 @@
             <node concept="3Cnw8n" id="4QWlgMFpBCH" role="2OEOjU">
               <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="4QWlgMFpzrc" resolve="FixInconsistentInstance" />
-              <node concept="3CnSsL" id="4QWlgMFpBOZ" role="3Coj4f">
+              <node concept="3CnSsL" id="2_foOew_BiR" role="3Coj4f">
                 <ref role="QkamJ" node="4QWlgMFp$a5" resolve="node" />
-                <node concept="1YBJjd" id="4QWlgMFpBPa" role="3CoRuB">
+                <node concept="1YBJjd" id="2_foOew_Eyw" role="3CoRuB">
                   <ref role="1YBMHb" node="5g8KHvCWyRM" resolve="componentInst" />
                 </node>
               </node>
@@ -1344,6 +1345,40 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2_foOewAehw">
+    <property role="TrG5h" value="typeof_IPortRef" />
+    <property role="3GE5qa" value="References" />
+    <node concept="3clFbS" id="2_foOewAehx" role="18ibNy">
+      <node concept="1Z5TYs" id="2_foOewAez4" role="3cqZAp">
+        <node concept="mw_s8" id="2_foOewAezu" role="1ZfhKB">
+          <node concept="2OqwBi" id="2_foOewAeZa" role="mwGJk">
+            <node concept="2OqwBi" id="2_foOewAeDK" role="2Oq$k0">
+              <node concept="1YBJjd" id="2_foOewAezs" role="2Oq$k0">
+                <ref role="1YBMHb" node="2_foOewAehz" resolve="iPortRef" />
+              </node>
+              <node concept="3TrEf2" id="2_foOewAeKX" role="2OqNvi">
+                <ref role="3Tt5mk" to="l1zz:30W4IWrNIUp" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="2_foOewAfaS" role="2OqNvi">
+              <ref role="3Tt5mk" to="l1zz:5S9zKKpPYgu" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2_foOewAez7" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2_foOewAeru" role="mwGJk">
+            <node concept="1YBJjd" id="2_foOewAeth" role="1Z2MuG">
+              <ref role="1YBMHb" node="2_foOewAehz" resolve="iPortRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2_foOewAehz" role="1YuTPh">
+      <property role="TrG5h" value="iPortRef" />
+      <ref role="1YaFvo" to="l1zz:30W4IWrNIUo" resolve="IPortRef" />
     </node>
   </node>
 </model>
