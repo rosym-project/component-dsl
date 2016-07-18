@@ -40,6 +40,7 @@
       </concept>
       <concept id="6776104396491459981" name="Component.structure.Composite" flags="ng" index="17RSa1">
         <child id="6776104396491459999" name="components" index="17RSaj" />
+        <child id="6776104396491460004" name="internalConnections" index="17RSaC" />
         <child id="6776104396491460001" name="proxyPorts" index="17RSaH" />
       </concept>
       <concept id="1695646464731827434" name="Component.structure.Property" flags="ng" index="3tteAj">
@@ -89,7 +90,7 @@
     </node>
     <node concept="3tteA$" id="5g8KHvCYcDw" role="3ttcQl">
       <property role="TrG5h" value="in" />
-      <node concept="10P55v" id="4QWlgMFpq5g" role="17RAGi" />
+      <node concept="10P55v" id="5XrbB0JmaG3" role="17RAGi" />
     </node>
     <node concept="3tteAs" id="5g8KHvCYcDF" role="3ttcQl">
       <property role="TrG5h" value="out" />
@@ -188,6 +189,16 @@
       </node>
       <node concept="10P55v" id="4QWlgMFpKBK" role="17RAGi" />
     </node>
+    <node concept="17R$sv" id="5XrbB0Jlb1C" role="17RSaH">
+      <property role="TrG5h" value="yay" />
+      <node concept="3AXAwS" id="5XrbB0Jmx6_" role="17RAGM">
+        <ref role="3AXAwT" node="4QWlgMFiziQ" />
+      </node>
+      <node concept="3AXAwS" id="5XrbB0Jmx6D" role="17RAGM">
+        <ref role="3AXAwT" node="4QWlgMFiziQ" />
+      </node>
+      <node concept="10P55v" id="5XrbB0Jmx6H" role="17RAGi" />
+    </node>
     <node concept="2WYcwU" id="4QWlgMFizil" role="17RSaj">
       <property role="TrG5h" value="blaa" />
       <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
@@ -249,6 +260,11 @@
       <node concept="FWJLR" id="4QWlgMFmQJC" role="FWJL0">
         <ref role="FWJLQ" node="4QWlgMFmQIL" resolve="intin" />
       </node>
+    </node>
+    <node concept="3tteA_" id="5XrbB0Jnyzc" role="17RSaC">
+      <property role="TrG5h" value="ddddd" />
+      <ref role="3ttcQ_" node="4QWlgMFiziQ" />
+      <ref role="3ttcQw" node="4QWlgMFiziR" />
     </node>
   </node>
   <node concept="3tteAz" id="4QWlgMFmQIw">
