@@ -15,6 +15,14 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -172,6 +180,9 @@
     </node>
     <node concept="PrWs8" id="5S9zKKpPYgs" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="378Eyp8OVeU" role="PrDN$">
+      <ref role="PrY4T" node="378Eyp8OV9l" resolve="IOTypeIF" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcN_">
@@ -367,6 +378,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5S9zKKpPwQd" resolve="Composite" />
     </node>
+    <node concept="1TJgyj" id="378Eyp8Nrmu" role="1TKVEi">
+      <property role="IQ2ns" value="3587304184607520158" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="refPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCW185">
     <property role="EcuMT" value="6055303931581436421" />
@@ -419,6 +437,27 @@
       <property role="20kJfa" value="smartref" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="378Eyp8OV9l">
+    <property role="EcuMT" value="3587304184607912533" />
+    <property role="TrG5h" value="IOTypeIF" />
+    <node concept="1TJgyi" id="378Eyp8OV9r" role="1TKVEl">
+      <property role="IQ2nx" value="3587304184607912539" />
+      <property role="TrG5h" value="ioType" />
+      <ref role="AX2Wp" node="378Eyp8OV9m" resolve="IOType" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="378Eyp8OV9m">
+    <property role="TrG5h" value="IOType" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="378Eyp8OV9n" role="M5hS2">
+      <property role="1uS6qo" value="Input" />
+      <property role="1uS6qv" value="Input" />
+    </node>
+    <node concept="M4N5e" id="378Eyp8OV9o" role="M5hS2">
+      <property role="1uS6qo" value="Output" />
+      <property role="1uS6qv" value="Output" />
     </node>
   </node>
 </model>
