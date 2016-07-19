@@ -1,4 +1,5 @@
 *_gen
 *_gen.caches
 build/
-.mps/
+vcs.xml
+workspace.xml
