@@ -56,6 +56,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
@@ -64,6 +65,7 @@
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
@@ -2206,6 +2208,24 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2pOAke0gm2P">
+    <ref role="13h7C2" to="l1zz:Nd1c9jqZ_C" resolve="ICondition" />
+    <node concept="13i0hz" id="2pOAke0gm30" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="evalCondition" />
+      <node concept="3Tm1VV" id="2pOAke0gm31" role="1B3o_S" />
+      <node concept="10P_77" id="2pOAke0gm3w" role="3clF45" />
+      <node concept="3clFbS" id="2pOAke0gm33" role="3clF47" />
+      <node concept="37vLTG" id="2pOAke0gpE0" role="3clF46">
+        <property role="TrG5h" value="ref" />
+        <node concept="3Tqbb2" id="2pOAke0gpDZ" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="2pOAke0gm2Q" role="13h7CW">
+      <node concept="3clFbS" id="2pOAke0gm2R" role="2VODD2" />
     </node>
   </node>
 </model>
