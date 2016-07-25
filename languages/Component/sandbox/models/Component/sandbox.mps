@@ -9,14 +9,12 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
     </language>
     <language id="218e40b4-75d4-4de8-83e6-b31e4da8bcee" name="Component">
-      <concept id="5685633502229650428" name="Component.structure.Parameter" flags="ng" index="2D$zpR">
-        <child id="5685633502229650435" name="type" index="2D$z68" />
-      </concept>
       <concept id="5685633502229588346" name="Component.structure.DummyLifeCycle" flags="ng" index="2D$KjL" />
       <concept id="3475673830596210328" name="Component.structure.IPortRef" flags="ng" index="FWJLR">
         <reference id="3475673830596210329" name="port" index="FWJLQ" />
@@ -43,7 +41,6 @@
       </concept>
       <concept id="1695646464731827433" name="Component.structure.Operation" flags="ng" index="3tteAg">
         <child id="1695646464731834562" name="returnType" index="3ttcQV" />
-        <child id="1695646464731834565" name="inputParameters" index="3ttcQW" />
       </concept>
       <concept id="1695646464731827434" name="Component.structure.Property" flags="ng" index="3tteAj">
         <child id="1695646464731834559" name="type" index="3ttcR6" />
@@ -84,9 +81,9 @@
     </language>
   </registry>
   <node concept="3tteAy" id="5g8KHvCYg1P">
-    <property role="TrG5h" value="TestSystem" />
+    <property role="TrG5h" value="MixtureOfControllerDemo" />
     <node concept="2WYcwU" id="4VBroJBve4t" role="3ttgI2">
-      <property role="TrG5h" value="gg1" />
+      <property role="TrG5h" value="gazebo" />
       <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
       <node concept="2WYd3i" id="4VBroJBve4L" role="2WYf99">
         <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
@@ -104,127 +101,111 @@
         <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
       </node>
     </node>
-    <node concept="2WYcw$" id="378Eyp8NnbJ" role="3ttgI2">
-      <property role="TrG5h" value="aaaa" />
-      <ref role="3AX7B2" node="4QWlgMFizik" resolve="Compoo" />
-      <node concept="FWJLR" id="378Eyp8QMIh" role="1T1hYS">
-        <ref role="FWJLQ" node="378Eyp8QLZX" resolve="testEx" />
+    <node concept="2WYcw$" id="3ia1uDcsmX$" role="3ttgI2">
+      <property role="TrG5h" value="ComanMotionControl" />
+      <ref role="3AX7B2" node="4QWlgMFizik" resolve="ComanTrqCtrlMixture" />
+      <node concept="FWJLR" id="3ia1uDcsmYg" role="1T1hYS">
+        <ref role="FWJLQ" node="3ia1uDcsmSI" resolve="controllerCommandInput" />
       </node>
     </node>
-    <node concept="3tteA_" id="30W4IWrQp8u" role="3ttgI7">
-      <property role="TrG5h" value="sss" />
-      <ref role="3ttcQ_" node="378Eyp8QMIh" />
-      <ref role="3ttcQw" node="4VBroJBve4O" />
+    <node concept="2WYcwU" id="3ia1uDcsmZM" role="3ttgI2">
+      <property role="TrG5h" value="metaCtrl" />
+      <ref role="2WYf9R" node="3ia1uDcsmYp" resolve="MetaController" />
+      <node concept="2WYd3i" id="3ia1uDcsn0G" role="2WYf99">
+        <ref role="2WYd3v" node="3ia1uDcsmYq" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="3ia1uDcsn0H" role="2WYf99">
+        <ref role="2WYd3v" node="3ia1uDcsmYs" resolve="priority" />
+      </node>
+      <node concept="FWJLR" id="3ia1uDcsn0I" role="FWJL0">
+        <ref role="FWJLQ" node="3ia1uDcsmYu" resolve="highLvlCmd" />
+      </node>
+    </node>
+    <node concept="3tteA_" id="3ia1uDcsmYO" role="3ttgI7">
+      <property role="TrG5h" value="coman_motion_cmd_flow" />
+      <ref role="3ttcQ_" node="3ia1uDcsn0I" />
+      <ref role="3ttcQw" node="3ia1uDcsmYg" />
     </node>
   </node>
   <node concept="17RSa1" id="4QWlgMFizik">
-    <property role="TrG5h" value="Compoo" />
-    <node concept="3tteA_" id="5XrbB0Jnyzc" role="17RSaC">
-      <property role="TrG5h" value="ddddd" />
-      <ref role="3ttcQ_" node="4VBroJBvdWU" />
-      <ref role="3ttcQw" node="4VBroJBvdWV" />
-    </node>
-    <node concept="17R$sv" id="378Eyp8QLZX" role="17RSaH">
-      <property role="TrG5h" value="testEx" />
-      <property role="1T6LxX" value="Input" />
-      <node concept="3AXAwS" id="4VBroJBve3D" role="17RAGM">
-        <ref role="3AXAwT" node="4VBroJBvdWU" />
+    <property role="TrG5h" value="ComanTrqCtrlMixture" />
+    <node concept="2WYcwU" id="6vNV_8a48hY" role="17RSaj">
+      <property role="TrG5h" value="coman" />
+      <ref role="2WYf9R" node="6vNV_8a48bD" resolve="RTTRobotSim" />
+      <node concept="2WYd3i" id="6vNV_8a48i7" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bE" resolve="period" />
       </node>
-      <node concept="3AXAwS" id="4VBroJBve3P" role="17RAGM">
-        <ref role="3AXAwT" node="4VBroJBve0t" />
+      <node concept="2WYd3i" id="6vNV_8a48i8" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bG" resolve="priority" />
       </node>
-      <node concept="10P55v" id="4VBroJBt9L7" role="17RAGi" />
-    </node>
-    <node concept="2WYcwU" id="4VBroJBvdWI" role="17RSaj">
-      <property role="TrG5h" value="g1" />
-      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
-      <node concept="2WYd3i" id="4VBroJBvdWR" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+      <node concept="FWJLR" id="6vNV_8a48i9" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48c9" resolve="trqCommand" />
       </node>
-      <node concept="2WYd3i" id="4VBroJBvdWS" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      <node concept="FWJLR" id="6vNV_8a48ia" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48cM" resolve="trqFeedback" />
       </node>
-      <node concept="2WYd3i" id="4VBroJBvdWT" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      <node concept="FWJLR" id="6vNV_8a48ib" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48dP" resolve="posFeedback" />
       </node>
-      <node concept="FWJLR" id="4VBroJBvdWU" role="FWJL0">
-        <ref role="FWJLQ" node="378Eyp8SftH" resolve="in" />
-      </node>
-      <node concept="FWJLR" id="4VBroJBvdWV" role="FWJL0">
-        <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
+      <node concept="FWJLR" id="6vNV_8a48ic" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48fg" resolve="velFeedback" />
       </node>
     </node>
-    <node concept="2WYcwU" id="4VBroJBvdZM" role="17RSaj">
-      <property role="TrG5h" value="g2" />
-      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
-      <node concept="2WYd3i" id="4VBroJBve0q" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+    <node concept="2WYcwU" id="6vNV_8a48jO" role="17RSaj">
+      <property role="TrG5h" value="ctrl" />
+      <ref role="2WYf9R" node="6vNV_8a48bI" resolve="TorqueController" />
+      <node concept="2WYd3i" id="6vNV_8a48kC" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bJ" resolve="period" />
       </node>
-      <node concept="2WYd3i" id="4VBroJBve0r" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      <node concept="2WYd3i" id="6vNV_8a48kD" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bL" resolve="priority" />
       </node>
-      <node concept="2WYd3i" id="4VBroJBve0s" role="2WYf99">
-        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      <node concept="FWJLR" id="6vNV_8a48kE" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48bN" resolve="out" />
       </node>
-      <node concept="FWJLR" id="4VBroJBve0t" role="FWJL0">
-        <ref role="FWJLQ" node="378Eyp8SftH" resolve="in" />
-      </node>
-      <node concept="FWJLR" id="4VBroJBve0u" role="FWJL0">
-        <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
+      <node concept="FWJLR" id="3ia1uDcsmPc" role="FWJL0">
+        <ref role="FWJLQ" node="3ia1uDcsmOC" resolve="refCommand" />
       </node>
     </node>
-    <node concept="2WYcwU" id="4VBroJBve24" role="17RSaj">
-      <property role="TrG5h" value="t1" />
-      <ref role="2WYf9R" node="4QWlgMFmQIw" resolve="test" />
-      <node concept="2WYd3i" id="4VBroJBve39" role="2WYf99">
-        <ref role="2WYd3v" node="4QWlgMFmQIx" resolve="period" />
+    <node concept="2WYcwU" id="3ia1uDcsmQE" role="17RSaj">
+      <property role="TrG5h" value="ctrl2" />
+      <ref role="2WYf9R" node="6vNV_8a48bI" resolve="TorqueController" />
+      <node concept="2WYd3i" id="3ia1uDcsmRW" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bJ" resolve="period" />
       </node>
-      <node concept="2WYd3i" id="4VBroJBve3a" role="2WYf99">
-        <ref role="2WYd3v" node="4QWlgMFmQIz" resolve="priority" />
+      <node concept="2WYd3i" id="3ia1uDcsmRX" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bL" resolve="priority" />
       </node>
-      <node concept="FWJLR" id="4VBroJBve3b" role="FWJL0">
-        <ref role="FWJLQ" node="4QWlgMFmQIA" resolve="intout" />
+      <node concept="FWJLR" id="3ia1uDcsmRY" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48bN" resolve="out" />
       </node>
-      <node concept="FWJLR" id="4VBroJBve3c" role="FWJL0">
-        <ref role="FWJLQ" node="4QWlgMFmQIL" resolve="intin" />
+      <node concept="FWJLR" id="3ia1uDcsmRZ" role="FWJL0">
+        <ref role="FWJLQ" node="3ia1uDcsmOC" resolve="refCommand" />
       </node>
     </node>
-  </node>
-  <node concept="3tteAz" id="4QWlgMFmQIw">
-    <property role="TrG5h" value="test" />
-    <node concept="3tteAj" id="4QWlgMFmQIx" role="3ttcQu">
-      <property role="TrG5h" value="period" />
-      <node concept="10P55v" id="4QWlgMFmQIy" role="3ttcR6" />
+    <node concept="3tteA_" id="6vNV_8a48l3" role="17RSaC">
+      <property role="TrG5h" value="command_flow" />
+      <ref role="3ttcQ_" node="6vNV_8a48kE" />
+      <ref role="3ttcQw" node="6vNV_8a48i9" />
     </node>
-    <node concept="3tteAj" id="4QWlgMFmQIz" role="3ttcQu">
-      <property role="TrG5h" value="priority" />
-      <node concept="10Oyi0" id="4QWlgMFmQI$" role="3ttcR6" />
-    </node>
-    <node concept="2D$KjL" id="4VBroJBt7jl" role="2WWV5w" />
-    <node concept="3tteAs" id="4QWlgMFmQIA" role="3ttcQl">
-      <property role="TrG5h" value="intout" />
-      <node concept="10Oyi0" id="2_foOewAefT" role="17RAGi" />
-    </node>
-    <node concept="3tteA$" id="4QWlgMFmQIL" role="3ttcQl">
-      <property role="TrG5h" value="intin" />
-      <node concept="10Oyi0" id="2_foOewB08X" role="17RAGi" />
-    </node>
-    <node concept="3tteAg" id="4VBroJBujPH" role="3ttcQt">
-      <property role="TrG5h" value="sss" />
-      <node concept="2D$zpR" id="4VBroJBujPN" role="3ttcQW">
-        <property role="TrG5h" value="aaa" />
-        <node concept="10Oyi0" id="4VBroJBujPZ" role="2D$z68" />
+    <node concept="17R$sv" id="3ia1uDcsmSI" role="17RSaH">
+      <property role="TrG5h" value="controllerCommandInput" />
+      <node concept="3AXAwS" id="3ia1uDcsmSW" role="17RAGM">
+        <ref role="3AXAwT" node="3ia1uDcsmPc" />
       </node>
-      <node concept="2D$zpR" id="4VBroJBujQ6" role="3ttcQW">
-        <property role="TrG5h" value="b2" />
-        <node concept="10P55v" id="4VBroJBujQs" role="2D$z68" />
+      <node concept="3AXAwS" id="3ia1uDcsmVc" role="17RAGM">
+        <ref role="3AXAwT" node="3ia1uDcsmRZ" />
       </node>
-      <node concept="3cqZAl" id="4VBroJBujQz" role="3ttcQV" />
+      <node concept="10OMs4" id="3ia1uDcsmT3" role="17RAGi" />
     </node>
   </node>
   <node concept="3tteAz" id="5g8KHvCYcDr">
     <property role="TrG5h" value="RTTGazeboEmbedded" />
     <property role="3GE5qa" value="rtt_gazebo_embedded" />
+    <node concept="3tteAg" id="6vNV_8a47wm" role="3ttcQt">
+      <property role="TrG5h" value="start" />
+      <node concept="3cqZAl" id="6vNV_8a47wE" role="3ttcQV" />
+    </node>
     <node concept="3tteAj" id="5g8KHvCYcDs" role="3ttcQu">
       <property role="TrG5h" value="period" />
       <node concept="10P55v" id="2_foOewAGpR" role="3ttcR6" />
@@ -248,6 +229,77 @@
       <node concept="10P55v" id="378Eyp8Sfu0" role="17RAGi" />
     </node>
     <node concept="2D$KjL" id="4VBroJBt7i0" role="2WWV5w" />
+  </node>
+  <node concept="3tteAz" id="6vNV_8a48bD">
+    <property role="3GE5qa" value="rtt_gazebo_embedded" />
+    <property role="TrG5h" value="RTTRobotSim" />
+    <node concept="3tteAj" id="6vNV_8a48bE" role="3ttcQu">
+      <property role="TrG5h" value="period" />
+      <node concept="10P55v" id="6vNV_8a48bF" role="3ttcR6" />
+    </node>
+    <node concept="3tteAj" id="6vNV_8a48bG" role="3ttcQu">
+      <property role="TrG5h" value="priority" />
+      <node concept="10Oyi0" id="6vNV_8a48bH" role="3ttcR6" />
+    </node>
+    <node concept="3tteA$" id="6vNV_8a48c9" role="3ttcQl">
+      <property role="1T6LxX" value="Input" />
+      <property role="TrG5h" value="trqCommand" />
+      <node concept="10P55v" id="6vNV_8a48cn" role="17RAGi" />
+    </node>
+    <node concept="3tteAs" id="6vNV_8a48cM" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="trqFeedback" />
+      <node concept="10P55v" id="6vNV_8a48de" role="17RAGi" />
+    </node>
+    <node concept="3tteAs" id="6vNV_8a48dP" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="posFeedback" />
+      <node concept="10P55v" id="6vNV_8a48et" role="17RAGi" />
+    </node>
+    <node concept="3tteAs" id="6vNV_8a48fg" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="velFeedback" />
+      <node concept="10P55v" id="6vNV_8a48g4" role="17RAGi" />
+    </node>
+  </node>
+  <node concept="3tteAz" id="6vNV_8a48bI">
+    <property role="3GE5qa" value="rtt_gazebo_embedded" />
+    <property role="TrG5h" value="TorqueController" />
+    <node concept="3tteAj" id="6vNV_8a48bJ" role="3ttcQu">
+      <property role="TrG5h" value="period" />
+      <node concept="10P55v" id="6vNV_8a48bK" role="3ttcR6" />
+    </node>
+    <node concept="3tteAj" id="6vNV_8a48bL" role="3ttcQu">
+      <property role="TrG5h" value="priority" />
+      <node concept="10Oyi0" id="6vNV_8a48bM" role="3ttcR6" />
+    </node>
+    <node concept="3tteAs" id="6vNV_8a48bN" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="out" />
+      <node concept="10P55v" id="6vNV_8a48c1" role="17RAGi" />
+    </node>
+    <node concept="3tteA$" id="3ia1uDcsmOC" role="3ttcQl">
+      <property role="1T6LxX" value="Input" />
+      <property role="TrG5h" value="refCommand" />
+      <node concept="10OMs4" id="3ia1uDcsmP4" role="17RAGi" />
+    </node>
+  </node>
+  <node concept="3tteAz" id="3ia1uDcsmYp">
+    <property role="3GE5qa" value="rtt_gazebo_embedded" />
+    <property role="TrG5h" value="MetaController" />
+    <node concept="3tteAj" id="3ia1uDcsmYq" role="3ttcQu">
+      <property role="TrG5h" value="period" />
+      <node concept="10P55v" id="3ia1uDcsmYr" role="3ttcR6" />
+    </node>
+    <node concept="3tteAj" id="3ia1uDcsmYs" role="3ttcQu">
+      <property role="TrG5h" value="priority" />
+      <node concept="10Oyi0" id="3ia1uDcsmYt" role="3ttcR6" />
+    </node>
+    <node concept="3tteAs" id="3ia1uDcsmYu" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="highLvlCmd" />
+      <node concept="10OMs4" id="3ia1uDcsmYG" role="17RAGi" />
+    </node>
   </node>
 </model>
 

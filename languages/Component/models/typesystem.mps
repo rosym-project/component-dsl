@@ -881,7 +881,7 @@
         <node concept="3clFbS" id="30W4IWrPChp" role="3clFbx">
           <node concept="2MkqsV" id="30W4IWrPE_b" role="3cqZAp">
             <node concept="Xl_RD" id="30W4IWrPE_q" role="2MkJ7o">
-              <property role="Xl_RC" value="Source and Target cannot be equal!" />
+              <property role="Xl_RC" value="Target and Source cannot be equal!" />
             </node>
             <node concept="1YBJjd" id="30W4IWrPE__" role="2OEOjV">
               <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
@@ -946,6 +946,111 @@
             </node>
             <node concept="3TrEf2" id="30W4IWrPvtY" role="2OqNvi">
               <ref role="3Tt5mk" to="l1zz:5S9zKKpPYgu" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6vNV_8a7Ogo" role="3cqZAp" />
+      <node concept="34ab3g" id="6vNV_8a88jl" role="3cqZAp">
+        <property role="35gtTG" value="warn" />
+        <node concept="3cpWs3" id="6vNV_8a890a" role="34bqiv">
+          <node concept="2OqwBi" id="6vNV_8a8bjZ" role="3uHU7w">
+            <node concept="2OqwBi" id="6vNV_8a8ayU" role="2Oq$k0">
+              <node concept="2OqwBi" id="6vNV_8a89aW" role="2Oq$k0">
+                <node concept="1YBJjd" id="6vNV_8a890M" role="2Oq$k0">
+                  <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
+                </node>
+                <node concept="3TrEf2" id="6vNV_8a89xw" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l1zz:1u89nBaZezs" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6vNV_8a8aUj" role="2OqNvi">
+                <ref role="3Tt5mk" to="l1zz:30W4IWrNIUp" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="6vNV_8a8bBe" role="2OqNvi">
+              <ref role="3TsBF5" to="l1zz:378Eyp8OV9r" resolve="ioType" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="6vNV_8a88jn" role="3uHU7B">
+            <property role="Xl_RC" value="c1:" />
+          </node>
+        </node>
+      </node>
+      <node concept="34ab3g" id="6vNV_8a8bT_" role="3cqZAp">
+        <property role="35gtTG" value="warn" />
+        <node concept="3cpWs3" id="6vNV_8a8bTA" role="34bqiv">
+          <node concept="2OqwBi" id="6vNV_8a8bTB" role="3uHU7w">
+            <node concept="2OqwBi" id="6vNV_8a8bTC" role="2Oq$k0">
+              <node concept="2OqwBi" id="6vNV_8a8bTD" role="2Oq$k0">
+                <node concept="1YBJjd" id="6vNV_8a8bTE" role="2Oq$k0">
+                  <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
+                </node>
+                <node concept="3TrEf2" id="6vNV_8a8chI" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l1zz:1u89nBaZezp" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6vNV_8a8bTG" role="2OqNvi">
+                <ref role="3Tt5mk" to="l1zz:30W4IWrNIUp" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="6vNV_8a8bTH" role="2OqNvi">
+              <ref role="3TsBF5" to="l1zz:378Eyp8OV9r" resolve="ioType" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="6vNV_8a8bTI" role="3uHU7B">
+            <property role="Xl_RC" value="c2:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6vNV_8a8bNE" role="3cqZAp" />
+      <node concept="3clFbH" id="6vNV_8a88em" role="3cqZAp" />
+      <node concept="3clFbJ" id="6vNV_8a7Iv8" role="3cqZAp">
+        <node concept="3clFbS" id="6vNV_8a7Iva" role="3clFbx">
+          <node concept="2MkqsV" id="6vNV_8a7T$F" role="3cqZAp">
+            <node concept="Xl_RD" id="6vNV_8a7T_9" role="2MkJ7o">
+              <property role="Xl_RC" value="I/O-Type of Target and Source cannot be equal!" />
+            </node>
+            <node concept="1YBJjd" id="6vNV_8a7TBN" role="2OEOjV">
+              <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="6vNV_8a7KoI" role="3clFbw">
+          <node concept="2OqwBi" id="6vNV_8a7NGl" role="3uHU7w">
+            <node concept="2OqwBi" id="6vNV_8a7N1D" role="2Oq$k0">
+              <node concept="2OqwBi" id="6vNV_8a7KJG" role="2Oq$k0">
+                <node concept="1YBJjd" id="6vNV_8a7KxS" role="2Oq$k0">
+                  <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
+                </node>
+                <node concept="3TrEf2" id="6vNV_8a7MAy" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l1zz:1u89nBaZezp" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6vNV_8a7Nhp" role="2OqNvi">
+                <ref role="3Tt5mk" to="l1zz:30W4IWrNIUp" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="6vNV_8a7NZ1" role="2OqNvi">
+              <ref role="3TsBF5" to="l1zz:378Eyp8OV9r" resolve="ioType" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6vNV_8a7JDF" role="3uHU7B">
+            <node concept="2OqwBi" id="6vNV_8a7J91" role="2Oq$k0">
+              <node concept="2OqwBi" id="6vNV_8a7IEh" role="2Oq$k0">
+                <node concept="1YBJjd" id="6vNV_8a7Iy_" role="2Oq$k0">
+                  <ref role="1YBMHb" node="30W4IWrPus6" resolve="connection" />
+                </node>
+                <node concept="3TrEf2" id="6vNV_8a7IT5" role="2OqNvi">
+                  <ref role="3Tt5mk" to="l1zz:1u89nBaZezs" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6vNV_8a7Jox" role="2OqNvi">
+                <ref role="3Tt5mk" to="l1zz:30W4IWrNIUp" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="6vNV_8a7JW7" role="2OqNvi">
+              <ref role="3TsBF5" to="l1zz:378Eyp8OV9r" resolve="ioType" />
             </node>
           </node>
         </node>
