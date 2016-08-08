@@ -19,6 +19,14 @@
       <concept id="3475673830596210328" name="Component.structure.IPortRef" flags="ng" index="FWJLR">
         <reference id="3475673830596210329" name="port" index="FWJLQ" />
       </concept>
+      <concept id="8922660669739446244" name="Component.structure.PositionPersistance" flags="ng" index="2GY8tY">
+        <property id="8922660669739446504" name="x" index="2GY9xM" />
+        <property id="8922660669739446510" name="y" index="2GY9xO" />
+      </concept>
+      <concept id="8922660669739453892" name="Component.structure.InterfaceGroup" flags="ng" index="2GYelu">
+        <property id="8922660669739453980" name="interfaceSide" index="2GYeq6" />
+        <property id="8922660669739453961" name="interfaceName" index="2GYeqj" />
+      </concept>
       <concept id="6055303931581434611" name="Component.structure.CompositeInst" flags="ng" index="2WYcw$">
         <reference id="5601445549443656910" name="compositeDescription" index="3AX7B2" />
         <child id="3587304184607520158" name="refPorts" index="1T1hYS" />
@@ -74,6 +82,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -99,6 +108,10 @@
       </node>
       <node concept="FWJLR" id="4VBroJBve4P" role="FWJL0">
         <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
+      </node>
+      <node concept="2GY8tY" id="7JjE9FnbzuK" role="lGtFl">
+        <property role="2GY9xM" value="0.0" />
+        <property role="2GY9xO" value="0.0" />
       </node>
     </node>
     <node concept="2WYcw$" id="3ia1uDcsmX$" role="3ttgI2">
@@ -197,6 +210,9 @@
         <ref role="3AXAwT" node="3ia1uDcsmRZ" />
       </node>
       <node concept="10OMs4" id="3ia1uDcsmT3" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnW7" role="lGtFl">
+        <property role="2GYeqj" value="UserSide" />
+      </node>
     </node>
   </node>
   <node concept="3tteAz" id="5g8KHvCYcDr">
@@ -245,21 +261,34 @@
       <property role="1T6LxX" value="Input" />
       <property role="TrG5h" value="trqCommand" />
       <node concept="10P55v" id="6vNV_8a48cn" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnUP" role="lGtFl">
+        <property role="2GYeqj" value="UserSide" />
+        <property role="2GYeq6" value="LEFT" />
+      </node>
     </node>
     <node concept="3tteAs" id="6vNV_8a48cM" role="3ttcQl">
       <property role="1T6LxX" value="Output" />
       <property role="TrG5h" value="trqFeedback" />
       <node concept="10P55v" id="6vNV_8a48de" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnUV" role="lGtFl">
+        <property role="2GYeqj" value="UserSide" />
+      </node>
     </node>
     <node concept="3tteAs" id="6vNV_8a48dP" role="3ttcQl">
       <property role="1T6LxX" value="Output" />
       <property role="TrG5h" value="posFeedback" />
       <node concept="10P55v" id="6vNV_8a48et" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnV1" role="lGtFl">
+        <property role="2GYeqj" value="UserSide" />
+      </node>
     </node>
     <node concept="3tteAs" id="6vNV_8a48fg" role="3ttcQl">
       <property role="1T6LxX" value="Output" />
       <property role="TrG5h" value="velFeedback" />
       <node concept="10P55v" id="6vNV_8a48g4" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnV7" role="lGtFl">
+        <property role="2GYeqj" value="UserSide" />
+      </node>
     </node>
   </node>
   <node concept="3tteAz" id="6vNV_8a48bI">
@@ -277,11 +306,19 @@
       <property role="1T6LxX" value="Output" />
       <property role="TrG5h" value="out" />
       <node concept="10P55v" id="6vNV_8a48c1" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnVv" role="lGtFl">
+        <property role="2GYeqj" value="RobotSide" />
+        <property role="2GYeq6" value="RIGHT" />
+      </node>
     </node>
     <node concept="3tteA$" id="3ia1uDcsmOC" role="3ttcQl">
       <property role="1T6LxX" value="Input" />
       <property role="TrG5h" value="refCommand" />
       <node concept="10OMs4" id="3ia1uDcsmP4" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbnV_" role="lGtFl">
+        <property role="2GYeqj" value="RobotSide" />
+        <property role="2GYeq6" value="RIGHT" />
+      </node>
     </node>
   </node>
   <node concept="3tteAz" id="3ia1uDcsmYp">
@@ -299,6 +336,10 @@
       <property role="1T6LxX" value="Output" />
       <property role="TrG5h" value="highLvlCmd" />
       <node concept="10OMs4" id="3ia1uDcsmYG" role="17RAGi" />
+      <node concept="2GYelu" id="7JjE9FnbiCy" role="lGtFl">
+        <property role="2GYeqj" value="Test" />
+        <property role="2GYeq6" value="LEFT" />
+      </node>
     </node>
   </node>
 </model>
