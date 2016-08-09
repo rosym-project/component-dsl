@@ -3,16 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="l1y1" ref="05b3ce81-ad9b-4836-b473-d98f0216c2ac/r:63b00e0f-42e9-495d-a65b-5c1f0a565854(coordination/coordination.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -155,6 +150,12 @@
     <property role="34LRSv" value="connect" />
     <property role="R4oN_" value="Connect an Output port to an Input port of Components" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="y1xxPK3wZW" role="1TKVEi">
+      <property role="IQ2ns" value="612918485291241468" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="connPolicy" />
+      <ref role="20lvS9" node="y1xxPK3wZn" resolve="IConnPolicy" />
+    </node>
     <node concept="PrWs8" id="1u89nBaZezj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -254,9 +255,6 @@
     <property role="TrG5h" value="Package" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1u89nBaZn1O" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="1u89nBaZn1W" role="PzmwI">
       <ref role="PrY4T" node="1u89nBaZj2U" resolve="IPackage" />
     </node>
@@ -285,6 +283,9 @@
   <node concept="PlHQZ" id="1u89nBaZj2U">
     <property role="EcuMT" value="1695646464731852986" />
     <property role="TrG5h" value="IPackage" />
+    <node concept="PrWs8" id="y1xxPK4yfr" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5S9zKKpPwQd">
     <property role="EcuMT" value="6776104396491459981" />
@@ -581,6 +582,39 @@
     <node concept="M4N5e" id="7JjE9FnaOSh" role="M5hS2">
       <property role="1uS6qv" value="RIGHT" />
       <property role="1uS6qo" value="RIGHT" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="y1xxPK3wYO">
+    <property role="EcuMT" value="612918485291241396" />
+    <property role="TrG5h" value="ConnPolicy" />
+    <property role="34LRSv" value="ConnPolicy" />
+    <property role="R4oN_" value="Connection Policy to configure a connection" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="y1xxPK3wZs" role="PzmwI">
+      <ref role="PrY4T" node="y1xxPK3wZn" resolve="IConnPolicy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="y1xxPK3wZn">
+    <property role="EcuMT" value="612918485291241431" />
+    <property role="TrG5h" value="IConnPolicy" />
+    <node concept="PrWs8" id="y1xxPK3wZo" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="y1xxPK3wZw">
+    <property role="EcuMT" value="612918485291241440" />
+    <property role="3GE5qa" value="References" />
+    <property role="TrG5h" value="ConnPolicyRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="y1xxPK3wZ_" role="1TKVEi">
+      <property role="IQ2ns" value="612918485291241445" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="y1xxPK3wYO" resolve="ConnPolicy" />
+    </node>
+    <node concept="PrWs8" id="y1xxPK3wZx" role="PzmwI">
+      <ref role="PrY4T" node="y1xxPK3wZn" resolve="IConnPolicy" />
     </node>
   </node>
 </model>

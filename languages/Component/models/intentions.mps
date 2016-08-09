@@ -670,6 +670,18 @@
                 <node concept="2pJPEk" id="7JjE9Fnbqpx" role="37vLTx">
                   <node concept="2pJPED" id="7JjE9Fnbqvh" role="2pJPEn">
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaMZ$" resolve="PositionPersistance" />
+                    <node concept="2pJxcG" id="4lyQvwNTXNz" role="2pJxcM">
+                      <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3C" resolve="x" />
+                      <node concept="Xl_RD" id="4lyQvwNTYkw" role="2pJxcZ">
+                        <property role="Xl_RC" value="0.0" />
+                      </node>
+                    </node>
+                    <node concept="2pJxcG" id="4lyQvwNTYqZ" role="2pJxcM">
+                      <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3I" resolve="y" />
+                      <node concept="Xl_RD" id="4lyQvwNTYvk" role="2pJxcZ">
+                        <property role="Xl_RC" value="0.0" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
