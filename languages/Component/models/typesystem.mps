@@ -112,6 +112,9 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
+        <child id="1207055552304" name="warningText" index="a7wSD" />
+      </concept>
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
@@ -1488,27 +1491,27 @@
           </node>
           <node concept="3clFbJ" id="378Eyp8MbvP" role="3cqZAp">
             <node concept="3clFbS" id="378Eyp8MbvR" role="3clFbx">
-              <node concept="2MkqsV" id="378Eyp8Mlcf" role="3cqZAp">
-                <node concept="Xl_RD" id="378Eyp8Mlcu" role="2MkJ7o">
-                  <property role="Xl_RC" value="Duplicates found in referenced ports!" />
-                </node>
-                <node concept="1YBJjd" id="378Eyp8Mle4" role="2OEOjV">
-                  <ref role="1YBMHb" node="4QWlgMFm8CV" resolve="proxyPort" />
-                </node>
-                <node concept="3Cnw8n" id="378Eyp8MuUM" role="2OEOjU">
+              <node concept="a7r0C" id="1bv5oumodfo" role="3cqZAp">
+                <node concept="3Cnw8n" id="1bv5oumodnX" role="2OEOjU">
                   <ref role="QpYPw" node="378Eyp8Mler" resolve="RemoveDuplicatesInProxyPort" />
-                  <node concept="3CnSsL" id="378Eyp8Mvjn" role="3Coj4f">
+                  <node concept="3CnSsL" id="1bv5oumodYB" role="3Coj4f">
                     <ref role="QkamJ" node="378Eyp8MleK" resolve="delete" />
-                    <node concept="37vLTw" id="378Eyp8Mvj$" role="3CoRuB">
+                    <node concept="37vLTw" id="1bv5oumodYP" role="3CoRuB">
                       <ref role="3cqZAo" node="378Eyp8M4$l" resolve="delete" />
                     </node>
                   </node>
-                  <node concept="3CnSsL" id="378Eyp8MvjJ" role="3Coj4f">
+                  <node concept="3CnSsL" id="1bv5oumodZ6" role="3Coj4f">
                     <ref role="QkamJ" node="378Eyp8Mpgs" resolve="proxyport" />
-                    <node concept="1YBJjd" id="378Eyp8Mvk1" role="3CoRuB">
+                    <node concept="1YBJjd" id="1bv5oumodZm" role="3CoRuB">
                       <ref role="1YBMHb" node="4QWlgMFm8CV" resolve="proxyPort" />
                     </node>
                   </node>
+                </node>
+                <node concept="1YBJjd" id="1bv5oumodg3" role="2OEOjV">
+                  <ref role="1YBMHb" node="4QWlgMFm8CV" resolve="proxyPort" />
+                </node>
+                <node concept="Xl_RD" id="1bv5oumodfP" role="a7wSD">
+                  <property role="Xl_RC" value="Duplicates found in referenced ports!" />
                 </node>
               </node>
             </node>
