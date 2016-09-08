@@ -119,7 +119,7 @@
     </node>
     <node concept="2WYcw$" id="3ia1uDcsmX$" role="3ttgI2">
       <property role="TrG5h" value="ComanMotionControl" />
-      <ref role="3AX7B2" node="4QWlgMFizik" resolve="ComanTrqCtrlMixture" />
+      <ref role="3AX7B2" node="4QWlgMFizik" resolve="ComanTrqCtrlModule" />
       <node concept="FWJLR" id="3ia1uDcsmYg" role="1T1hYS">
         <ref role="FWJLQ" node="3ia1uDcsmSI" resolve="controllerCommandInput" />
       </node>
@@ -144,7 +144,7 @@
     </node>
   </node>
   <node concept="17RSa1" id="4QWlgMFizik">
-    <property role="TrG5h" value="ComanTrqCtrlMixture" />
+    <property role="TrG5h" value="ComanTrqCtrlModule" />
     <node concept="2WYcwU" id="6vNV_8a48hY" role="17RSaj">
       <property role="TrG5h" value="coman" />
       <ref role="2WYf9R" node="6vNV_8a48bD" resolve="RTTRobotSim" />
