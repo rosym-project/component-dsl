@@ -14,10 +14,20 @@
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1070534555686" name="jetbrains.mps.baseLanguage.structure.CharType" flags="in" index="10Pfzv" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
     </language>
     <language id="218e40b4-75d4-4de8-83e6-b31e4da8bcee" name="Component">
+      <concept id="5685633502229650428" name="Component.structure.Parameter" flags="ng" index="2D$zpR">
+        <child id="5685633502229650435" name="type" index="2D$z68" />
+      </concept>
       <concept id="5685633502229588346" name="Component.structure.DummyLifeCycle" flags="ng" index="2D$KjL" />
       <concept id="3475673830596210328" name="Component.structure.IPortRef" flags="ng" index="FWJLR">
         <reference id="3475673830596210329" name="port" index="FWJLQ" />
@@ -41,6 +51,7 @@
       </concept>
       <concept id="6055303931581436421" name="Component.structure.PropertyTarget" flags="ng" index="2WYd3i">
         <reference id="6055303931581436424" name="property" index="2WYd3v" />
+        <child id="6055303931581436422" name="valueExp" index="2WYd3h" />
       </concept>
       <concept id="6776104396491573267" name="Component.structure.ProxyPort" flags="ng" index="17R$sv">
         <child id="6776104396491580478" name="refPorts" index="17RAGM" />
@@ -52,6 +63,7 @@
       </concept>
       <concept id="1695646464731827433" name="Component.structure.Operation" flags="ng" index="3tteAg">
         <child id="1695646464731834562" name="returnType" index="3ttcQV" />
+        <child id="1695646464731834565" name="inputParameters" index="3ttcQW" />
       </concept>
       <concept id="1695646464731827434" name="Component.structure.Property" flags="ng" index="3tteAj">
         <child id="1695646464731834559" name="type" index="3ttcR6" />
@@ -343,6 +355,88 @@
         <property role="2GYeqj" value="Test" />
         <property role="2GYeq6" value="LEFT" />
       </node>
+    </node>
+  </node>
+  <node concept="3tteAz" id="6$nW1kaHSr6">
+    <property role="TrG5h" value="TestViewComp" />
+    <node concept="3tteAj" id="6$nW1kaHSr7" role="3ttcQu">
+      <property role="TrG5h" value="period" />
+      <node concept="10P55v" id="6$nW1kaHSr8" role="3ttcR6" />
+    </node>
+    <node concept="3tteAj" id="6$nW1kaHSr9" role="3ttcQu">
+      <property role="TrG5h" value="priority" />
+      <node concept="10Oyi0" id="6$nW1kaHSra" role="3ttcR6" />
+    </node>
+    <node concept="3tteA$" id="6$nW1kaIxjd" role="3ttcQl">
+      <property role="1T6LxX" value="Input" />
+      <property role="TrG5h" value="sdds" />
+      <node concept="10OMs4" id="6$nW1kaIxjh" role="17RAGi" />
+    </node>
+    <node concept="3tteAs" id="6$nW1kaIxjo" role="3ttcQl">
+      <property role="1T6LxX" value="Output" />
+      <property role="TrG5h" value="sdsd" />
+      <node concept="10Pfzv" id="6$nW1kaIxjw" role="17RAGi" />
+    </node>
+    <node concept="3tteAg" id="6$nW1kaIxjz" role="3ttcQt">
+      <property role="TrG5h" value="sd" />
+      <node concept="10P55v" id="6$nW1kaIxj_" role="3ttcQV" />
+      <node concept="2D$zpR" id="6$nW1kaIxjB" role="3ttcQW">
+        <property role="TrG5h" value="sds" />
+        <node concept="10P55v" id="6$nW1kaIxjF" role="2D$z68" />
+      </node>
+      <node concept="2D$zpR" id="6$nW1kaIxjI" role="3ttcQW">
+        <property role="TrG5h" value="sdfd" />
+        <node concept="10OMs4" id="6$nW1kaIxjO" role="2D$z68" />
+      </node>
+    </node>
+  </node>
+  <node concept="3tteAy" id="6$nW1kaIxk7">
+    <property role="TrG5h" value="test" />
+    <node concept="2WYcwU" id="6$nW1kaIA5S" role="3ttgI2">
+      <property role="TrG5h" value="aaa" />
+      <ref role="2WYf9R" node="6$nW1kaHSr6" resolve="TestViewComp" />
+      <node concept="2WYd3i" id="6$nW1kaIA5W" role="2WYf99">
+        <ref role="2WYd3v" node="6$nW1kaHSr7" resolve="period" />
+        <node concept="3b6qkQ" id="6$nW1kaJcdQ" role="2WYd3h">
+          <property role="$nhwW" value="0.0" />
+        </node>
+      </node>
+      <node concept="2WYd3i" id="6$nW1kaIA5X" role="2WYf99">
+        <ref role="2WYd3v" node="6$nW1kaHSr9" resolve="priority" />
+        <node concept="3cmrfG" id="6$nW1kaJcmf" role="2WYd3h">
+          <property role="3cmrfH" value="10" />
+        </node>
+      </node>
+      <node concept="FWJLR" id="6$nW1kaIA5Y" role="FWJL0">
+        <ref role="FWJLQ" node="6$nW1kaIxjd" resolve="sdds" />
+      </node>
+      <node concept="FWJLR" id="6$nW1kaIA5Z" role="FWJL0">
+        <ref role="FWJLQ" node="6$nW1kaIxjo" resolve="sdsd" />
+      </node>
+    </node>
+    <node concept="2WYcwU" id="6$nW1kaJcmx" role="3ttgI2">
+      <property role="TrG5h" value="ssss" />
+      <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
+      <node concept="2WYd3i" id="6$nW1kaJcmI" role="2WYf99">
+        <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="6$nW1kaJcmJ" role="2WYf99">
+        <ref role="2WYd3v" node="5g8KHvCYcDu" resolve="priority" />
+      </node>
+      <node concept="2WYd3i" id="6$nW1kaJcmK" role="2WYf99">
+        <ref role="2WYd3v" node="5g8KHvCYcDQ" resolve="debug" />
+      </node>
+      <node concept="FWJLR" id="6$nW1kaJcmL" role="FWJL0">
+        <ref role="FWJLQ" node="378Eyp8SftH" resolve="in" />
+      </node>
+      <node concept="FWJLR" id="6$nW1kaJcmM" role="FWJL0">
+        <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
+      </node>
+    </node>
+    <node concept="3tteA_" id="6$nW1kaJcn2" role="3ttgI7">
+      <property role="TrG5h" value="sss" />
+      <ref role="3ttcQ_" node="6$nW1kaIA5Y" />
+      <ref role="3ttcQw" node="6$nW1kaIA5Z" />
     </node>
   </node>
 </model>
