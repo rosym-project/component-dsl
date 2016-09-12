@@ -29,7 +29,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="kaurqQAABAAHKPh2q/R+H0KNiQRvm0ljc6gAABpUZW1wTW9kZWxfMjAwMDk0MDE1NjQzMjkzMhdI1tjxLNy0R32B8nbo8AXByQAALlRlbXBNb2R1bGVkNmQ4ZjEyYy1kY2I0LTQ3N2QtODFmMi03NmU4ZjAwNWMxYzn/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABN4a2G1uUEoCswbU0X9kw3UBAAAABaXk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHOZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHPyZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHMAAAABF0j7wl3SXaRIOosZcJKOG2LXAAAkamV0YnJhaW5zLm1wcy5kZXZraXQuZ2VuZXJhbC1wdXJwb3NlAAAABAcoNZsdK3fERt+b8rJcvqMiVAAAJGpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlLnN0cnVjdHVyZXD/////BygTWmBvA3ZMXJq4QDDwUaBiAAAramV0YnJhaW5zLm1wcy5jb25zb2xlLmlkZUNvbW1hbmRzLnN0cnVjdHVyZXD/////ByiQRFIGqXNMHbdgMOXHe3SXAAAwamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHMuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYPKi6+uQkXob//3sAAAAAAAAAAAACAAMYPKi6+uQkXocAAHsAAAAAAAAAAAAAfQACGDyouvrkJF6IAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
+          <option name="history" value="kaurqQAABAAHKLin01qebkXWkUMgYfbmPwEAABpUZW1wTW9kZWxfMjI1ODA5NDUwNjQ0OTU2MhdItYlE00yDTr+QgvGmva/jPAAALlRlbXBNb2R1bGViNTg5NDRkMy00YzgzLTRlYmYtOTA4Mi1mMWE2YmRhZmUzM2P/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABN4a2G1uUEoCswbU0X9kw3UBAAAABaXk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHOZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHPyZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHMAAAABF0j7wl3SXaRIOosZcJKOG2LXAAAkamV0YnJhaW5zLm1wcy5kZXZraXQuZ2VuZXJhbC1wdXJwb3NlAAAABAcoNZsdK3fERt+b8rJcvqMiVAAAJGpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlLnN0cnVjdHVyZXD/////BygTWmBvA3ZMXJq4QDDwUaBiAAAramV0YnJhaW5zLm1wcy5jb25zb2xlLmlkZUNvbW1hbmRzLnN0cnVjdHVyZXD/////ByiQRFIGqXNMHbdgMOXHe3SXAAAwamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHMuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYVrIMGPG/e6X//3sAAAAAAAAAAAACAAMYVrIMGPG/e6YAAHsAAAAAAAAAAAAAfQACGFayDBjxv3unAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
         </TabState>
       </list>
     </option>
@@ -52,174 +52,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MixtureOfControllerDemo" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Component.sandbox/Component.sandbox/MixtureOfControllerDemo">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="127" />
-                    <property name="caretXRelative" value="92" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/3785844940621311844" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComponentInst" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Component/Component.structure/ComponentInst">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="79" />
-                    <property name="caretXRelative" value="12" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/7572785271611744666" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-                </enabledHints>
-              </inspectorMemento>
-              <node node_ref="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/6055303931581444265" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component" pinned="false" current-in-tab="true">
-        <entry file="mps://node://Component/Component.structure/Component">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="295" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-                </enabledHints>
-              </inspectorMemento>
-              <node node_ref="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581826332" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestViewComp" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Component.sandbox/Component.sandbox/TestViewComp">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="63" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_3k4y3b_a3a" cellNumber="0" isInList="false">
-                      <node node_reference="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/7572785271611557574" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test" pinned="false" current-in-tab="false">
-        <entry file="mps://node://Component.sandbox/Component.sandbox/test">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretX" value="0" />
-                    <property name="caretXRelative" value="-15" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Empty_dmikla_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/7572785271611725063" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581862022" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <collapsed />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-                </enabledHints>
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../coord-dsl" />
@@ -241,9 +74,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1919" />
-    <option name="width" value="1922" />
-    <option name="height" value="1201" />
+    <option name="width" value="1920" />
+    <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -348,117 +180,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="218e40b4-75d4-4de8-83e6-b31e4da8bcee(Component)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure) in IdeaFile{file:///homes/dwigand/code/domain-specific-languages/component-dsl/languages/Component/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Component/sandbox/Component.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Component/sandbox/Component.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Component/sandbox/Component.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox) in IdeaFile{file:///homes/dwigand/code/domain-specific-languages/component-dsl/languages/Component/sandbox/models/Component/sandbox.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="218e40b4-75d4-4de8-83e6-b31e4da8bcee(Component)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure) in IdeaFile{file:///homes/dwigand/code/domain-specific-languages/component-dsl/languages/Component/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Instances" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="218e40b4-75d4-4de8-83e6-b31e4da8bcee(Component)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/Component/sandbox/Component.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox) in IdeaFile{file:///homes/dwigand/code/domain-specific-languages/component-dsl/languages/Component/sandbox/models/Component/sandbox.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtt_gazebo_embedded" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,92 +202,58 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../orocos-dsl" />
   </component>
-  <component name="RunManager" selected="Build Script.Component">
-    <configuration default="false" name="Component" type="Build Script" factoryName="Build Script" temporary="true">
-      <MyState />
-      <myNode>
-        <MyState>
-          <option name="myNodeId" value="3308395550565852922" />
-          <option name="myModelId" value="r:43952558-28ac-4066-bf0b-48555bda5854(Component.build)" />
-        </MyState>
-      </myNode>
-      <mySettings>
-        <MyState>
-          <option name="myUseOtherAntLocation" value="false" />
-          <option name="myOtherAntLocation" />
-          <option name="myAntOptions" />
-        </MyState>
-      </mySettings>
+  <component name="RunManager">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <MyState>
+        <option name="mySettings">
+          <RemoteConnectionSettings>
+            <option name="hostName" value="localhost" />
+            <option name="port" value="5005" />
+            <option name="sharedMemoryAddress" value="" />
+            <option name="suspend" value="false" />
+            <option name="useSockets" value="true" />
+          </RemoteConnectionSettings>
+        </option>
+      </MyState>
       <method />
     </configuration>
-    <configuration default="true" type="Build Script" factoryName="Build Script">
-      <MyState />
-      <myNode>
-        <MyState>
-          <option name="myNodeId" />
-          <option name="myModelId" />
-        </MyState>
-      </myNode>
-      <mySettings>
-        <MyState>
-          <option name="myUseOtherAntLocation" value="false" />
-          <option name="myOtherAntLocation" />
-          <option name="myAntOptions" />
-        </MyState>
-      </mySettings>
-      <method />
+    <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
-      <MyState />
-      <myJUnitSettings>
-        <MyState>
-          <option name="myModel" />
-          <option name="myModule" />
-          <option name="myLightExec" value="true" />
-          <option name="myReuseCaches" value="true" />
-          <option name="myDebug" value="false" />
-          <option name="myCachesPath" value="/tmp/mps_test_dir0" />
-          <option name="myTestCases">
-            <list />
-          </option>
-          <option name="myTestMethods">
-            <list />
-          </option>
-          <option name="myRunType" value="0" />
-        </MyState>
-      </myJUnitSettings>
-      <myJavaRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myJavaRunParameters>
-      <method />
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Build Script.Component" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Build Script.Component" />
-      </list>
-    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -568,8 +262,8 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="0" width="1922" height="1201" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1167" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.46458334" order="8" side_tool="false" content_ui="tabs" />
@@ -583,18 +277,16 @@
       <window_info id="Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27604166" sideWeight="0.55885416" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49375" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328" sideWeight="0.44114584" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.44114584" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4679487" sideWeight="0.45729166" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
@@ -603,7 +295,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Diagram View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46510416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1858,38 +1552,6 @@
     </entry>
     <entry file="mps://node://Component.sandbox/Component.sandbox/&lt;no name&gt;[Component]" />
     <entry file="mps://node://Component.sandbox/Component.sandbox/&lt;no name&gt;[System]" />
-    <entry file="mps://node://Component/Component.structure/Connection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="327" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/1695646464732033187" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <collapsed />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/3785844940621311844" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <collapsed />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
-            </enabledHints>
-          </inspectorMemento>
-          <node node_ref="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/1695646464732033187" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/DoubleType">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2101,7 +1763,7 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/3785844940621311844" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/7572785271611557574" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2131,7 +1793,7 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/3785844940621311844" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/7572785271611725063" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2194,8 +1856,18 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3ec8ceb3-506e-4623-9b63-df52656b9c4d(Component.sandbox)/3785844940621311844" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055732982364" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_color" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055733087649" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <collapsed />
@@ -2340,11 +2012,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="351" />
+                <property name="caretXRelative" value="108" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/6055303931581434605" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/6055303931581444265" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2352,8 +2024,18 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/6055303931581434605" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055732982364" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_color" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055733087649" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <collapsed />
@@ -2361,7 +2043,7 @@
               <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
             </enabledHints>
           </inspectorMemento>
-          <node node_ref="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/6055303931581434605" />
+          <node node_ref="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/6055303931581444265" />
         </state>
       </provider>
     </entry>
@@ -2372,11 +2054,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="76" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/1695646464731827418" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581826332" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2384,8 +2066,18 @@
             <transactionalProperties />
             <collapsed />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/1695646464731827418" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055732982364" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_color" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055733087649" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <collapsed />
@@ -2393,7 +2085,49 @@
               <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
             </enabledHints>
           </inspectorMemento>
-          <node node_ref="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)/1695646464731827418" />
+          <node node_ref="r:26ec6bf4-a821-4bc8-b916-3baf6dc5ae13(Component.behavior)/6055303931581826332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Component/Component.structure/Connection">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="387" />
+                <property name="caretXRelative" value="28" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_role" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055732982364" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055732982364" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_color" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/3857786055733087649" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <collapsed />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.baseLanguage.editor.BLHints.VisibleExpressionBoundaries" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)/1695646464732033187" />
         </state>
       </provider>
     </entry>
