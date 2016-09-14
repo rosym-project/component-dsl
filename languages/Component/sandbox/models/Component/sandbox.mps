@@ -436,7 +436,7 @@
     <node concept="3tteA_" id="6$nW1kaJcn2" role="3ttgI7">
       <property role="TrG5h" value="sss" />
       <ref role="3ttcQ_" node="6$nW1kaIA5Y" />
-      <ref role="3ttcQw" node="6$nW1kaIA5Z" />
+      <ref role="3ttcQw" node="6$nW1kaIA5Y" />
     </node>
   </node>
 </model>
