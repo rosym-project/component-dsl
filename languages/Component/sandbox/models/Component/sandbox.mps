@@ -125,8 +125,8 @@
         <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
       </node>
       <node concept="2GY8tY" id="7JjE9FnbzuK" role="lGtFl">
-        <property role="2GY9xM" value="460.0" />
-        <property role="2GY9xO" value="488.0" />
+        <property role="2GY9xM" value="478.60833740234375" />
+        <property role="2GY9xO" value="510.68994140625" />
       </node>
     </node>
     <node concept="2WYcw$" id="3ia1uDcsmX$" role="3ttgI2">
@@ -149,14 +149,14 @@
         <ref role="FWJLQ" node="3ia1uDcsmYu" resolve="highLvlCmd" />
       </node>
       <node concept="2GY8tY" id="3JGwvF86HFF" role="lGtFl">
-        <property role="2GY9xM" value="41.0" />
-        <property role="2GY9xO" value="484.0" />
+        <property role="2GY9xM" value="113.0" />
+        <property role="2GY9xO" value="430.0" />
       </node>
     </node>
     <node concept="3tteA_" id="3ia1uDcsmYO" role="3ttgI7">
       <property role="TrG5h" value="coman_motion_cmd_flow" />
-      <ref role="3ttcQ_" node="3ia1uDcsn0I" />
-      <ref role="3ttcQw" node="3ia1uDcsmYg" />
+      <ref role="3ttcQw" node="4VBroJBve4O" />
+      <ref role="3ttcQ_" node="DXpoAAUzsw" />
     </node>
     <node concept="2WYcwU" id="6KPXZUiEWpr" role="3ttgI2">
       <property role="TrG5h" value="testComponent" />
@@ -177,12 +177,12 @@
         <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
       </node>
       <node concept="2GY8tY" id="6KPXZUiEWqB" role="lGtFl">
-        <property role="2GY9xM" value="452.0" />
-        <property role="2GY9xO" value="117.0" />
+        <property role="2GY9xM" value="486.0" />
+        <property role="2GY9xO" value="72.0" />
       </node>
     </node>
     <node concept="2WYcwU" id="DXpoAAUzrm" role="3ttgI2">
-      <property role="TrG5h" value="second gazebo!" />
+      <property role="TrG5h" value="second_gazebo" />
       <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
       <node concept="2WYd3i" id="DXpoAAUzss" role="2WYf99">
         <ref role="2WYd3v" node="5g8KHvCYcDs" resolve="period" />
@@ -200,34 +200,8 @@
         <ref role="FWJLQ" node="378Eyp8SftS" resolve="out" />
       </node>
       <node concept="2GY8tY" id="DXpoAAUzsU" role="lGtFl">
-        <property role="2GY9xM" value="249.5" />
-        <property role="2GY9xO" value="309.0" />
-      </node>
-    </node>
-    <node concept="2WYcwU" id="1lghS0krK4O" role="3ttgI2">
-      <property role="TrG5h" value="dfdfdf" />
-      <ref role="2WYf9R" node="6vNV_8a48bD" resolve="RTTRobotSim" />
-      <node concept="2WYd3i" id="1lghS0krK6f" role="2WYf99">
-        <ref role="2WYd3v" node="6vNV_8a48bE" resolve="period" />
-      </node>
-      <node concept="2WYd3i" id="1lghS0krK6g" role="2WYf99">
-        <ref role="2WYd3v" node="6vNV_8a48bG" resolve="priority" />
-      </node>
-      <node concept="FWJLR" id="1lghS0krK6h" role="FWJL0">
-        <ref role="FWJLQ" node="6vNV_8a48c9" resolve="trqCommand" />
-      </node>
-      <node concept="FWJLR" id="1lghS0krK6i" role="FWJL0">
-        <ref role="FWJLQ" node="6vNV_8a48cM" resolve="trqFeedback" />
-      </node>
-      <node concept="FWJLR" id="1lghS0krK6j" role="FWJL0">
-        <ref role="FWJLQ" node="6vNV_8a48dP" resolve="posFeedback" />
-      </node>
-      <node concept="FWJLR" id="1lghS0krK6k" role="FWJL0">
-        <ref role="FWJLQ" node="6vNV_8a48fg" resolve="velFeedback" />
-      </node>
-      <node concept="2GY8tY" id="1lghS0krK6N" role="lGtFl">
-        <property role="2GY9xM" value="666.0" />
-        <property role="2GY9xO" value="293.0" />
+        <property role="2GY9xM" value="83.5" />
+        <property role="2GY9xO" value="116.0" />
       </node>
     </node>
   </node>
