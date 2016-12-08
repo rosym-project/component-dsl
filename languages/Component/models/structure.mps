@@ -3,18 +3,18 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="4cc07462-84b3-4d01-8adb-629ddd3cebd4" name="Capabilities" version="0" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="e6u4" ref="r:44322346-a7b1-436b-882b-4bbfa753778e(Capabilities.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.IconResource" flags="ng" index="1QGGSu" />
-      <concept id="8974276187400029898" name="jetbrains.mps.lang.resources.structure.Resource" flags="ng" index="1QGGTJ">
-        <property id="8974276187400029899" name="path" index="1QGGTI" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -127,7 +127,7 @@
       <ref role="20lvS9" node="4VBroJBs4v2" resolve="ILifeCycle" />
     </node>
     <node concept="1QGGSu" id="3bwealO7x9J" role="rwd14">
-      <property role="1QGGTI" value="${module}/res/componentIcon.png" />
+      <property role="1iqoE4" value="${module}/res/componentIcon.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNr">
@@ -155,7 +155,7 @@
       <ref role="20lvS9" node="1u89nBaZcNs" resolve="Connection" />
     </node>
     <node concept="1QGGSu" id="3bwealOc0v4" role="rwd14">
-      <property role="1QGGTI" value="${module}/res/systemIcon.png" />
+      <property role="1iqoE4" value="${module}/res/systemIcon.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNs">
@@ -399,6 +399,9 @@
     <property role="3GE5qa" value="Instances" />
     <node concept="PrWs8" id="5g8KHvCW0FL" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="ITkzpNFPaj" role="PrDN$">
+      <ref role="PrY4T" to="e6u4:2LnlX4fH7xw" resolve="ICanBePlatformAnnotated" />
     </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCW0FN">
