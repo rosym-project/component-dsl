@@ -634,5 +634,25 @@
       <ref role="PrY4T" node="y1xxPK3wZn" resolve="IConnPolicy" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6CCfj_$sGaS">
+    <property role="EcuMT" value="7649431283796460216" />
+    <property role="3GE5qa" value="Annotations" />
+    <property role="TrG5h" value="SourceOfDeployment" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyi" id="6CCfj_$sGgk" role="1TKVEl">
+      <property role="IQ2nx" value="7649431283796460564" />
+      <property role="TrG5h" value="source" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="M6xJ_" id="6CCfj_$sGfS" role="lGtFl">
+      <property role="Hh88m" value="Source of Deployment" />
+      <node concept="tn0Fv" id="6CCfj_$sGg6" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="6CCfj_$sMT_" role="EQaZv">
+        <ref role="trN6q" node="5g8KHvCW0FI" resolve="IComponentInst" />
+      </node>
+    </node>
+  </node>
 </model>
 

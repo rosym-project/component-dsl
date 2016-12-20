@@ -509,7 +509,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="4t9kUm8drD" role="3EZMnx">
-        <property role="3F0ifm" value="" />
+        <property role="3F0ifm" value="▶" />
       </node>
       <node concept="1iCGBv" id="4t9kUm8drT" role="3EZMnx">
         <property role="1$x2rV" value="&lt;no target port&gt;" />
@@ -1163,6 +1163,11 @@
         <node concept="3SHvHV" id="4t9kUm9few" role="2wV5jI" />
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="5i5XIdnKep9">
+    <property role="3GE5qa" value="Annotations" />
+    <ref role="1XX52x" to="l1zz:6CCfj_$sGaS" resolve="SourceOfDeployment" />
+    <node concept="2SsqMj" id="5i5XIdnKerW" role="2wV5jI" />
   </node>
 </model>
 
