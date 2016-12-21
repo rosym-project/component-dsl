@@ -4,6 +4,7 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
+    <use id="4cc07462-84b3-4d01-8adb-629ddd3cebd4" name="Capabilities" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -30,7 +31,9 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -86,10 +89,13 @@
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
+        <child id="9200313594498201639" name="generator" index="1TViLv" />
+      </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -107,6 +113,17 @@
     <node concept="3b7kt6" id="2RDM3_ZXurW" role="10PD9s" />
     <node concept="398rNT" id="2RDM3_ZXurX" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+    </node>
+    <node concept="398rNT" id="1CfY4uLAI4$" role="1l3spd">
+      <property role="TrG5h" value="capabilities" />
+      <node concept="55IIr" id="1CfY4uLAI5k" role="398pKh">
+        <node concept="2Ry0Ak" id="1CfY4uLAI5z" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="1CfY4uLAIaB" role="2Ry0An">
+            <property role="2Ry0Am" value="cosmo.dimensions" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="2RDM3_ZXurY" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
@@ -202,6 +219,40 @@
           <node concept="1Busua" id="2RDM3_ZXusw" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
+        </node>
+        <node concept="1SiIV0" id="1CfY4uLAIdv" role="3bR37C">
+          <node concept="3bR9La" id="1CfY4uLAIdw" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1CfY4uLAHZQ" resolve="Capabilities" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1CfY4uLAIdx" role="3bR37C">
+          <node concept="1Busua" id="1CfY4uLAIdy" role="1SiIV1">
+            <ref role="1Busuk" node="1CfY4uLAHZQ" resolve="Capabilities" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="1CfY4uLAHZQ" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="Capabilities" />
+        <property role="3LESm3" value="4cc07462-84b3-4d01-8adb-629ddd3cebd4" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="1CfY4uLAIaT" role="3LF7KH">
+          <ref role="398BVh" node="1CfY4uLAI4$" resolve="capabilities" />
+          <node concept="2Ry0Ak" id="1CfY4uLAIbv" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="1CfY4uLAIc4" role="2Ry0An">
+              <property role="2Ry0Am" value="Capabilities" />
+              <node concept="2Ry0Ak" id="1CfY4uLAIcD" role="2Ry0An">
+                <property role="2Ry0Am" value="Capabilities.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="1CfY4uLAIcV" role="1TViLv">
+          <property role="TrG5h" value="Capabilities#3195119016065916815" />
+          <property role="3LESm3" value="a8b91d00-4960-4763-b444-b1a9b7ceba77" />
+          <property role="2GAjPV" value="false" />
         </node>
       </node>
     </node>
