@@ -245,16 +245,16 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="Nd1c9jqZ_C" resolve="ICondition" />
     </node>
-    <node concept="PrWs8" id="1u89nBaZezd" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1yUM5L7xvgo" role="PzmwI">
+      <ref role="PrY4T" node="1yUM5L7xvg2" resolve="IMember" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNE">
     <property role="EcuMT" value="1695646464731827434" />
     <property role="TrG5h" value="Property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1u89nBaZeyT" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1yUM5L7xvgd" role="PzmwI">
+      <ref role="PrY4T" node="1yUM5L7xvg2" resolve="IMember" />
     </node>
     <node concept="1TJgyj" id="1u89nBaZeyZ" role="1TKVEi">
       <property role="IQ2ns" value="1695646464731834559" />
@@ -652,6 +652,13 @@
       <node concept="trNpa" id="6CCfj_$sMT_" role="EQaZv">
         <ref role="trN6q" node="5g8KHvCW0FI" resolve="IComponentInst" />
       </node>
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1yUM5L7xvg2">
+    <property role="EcuMT" value="1781956901240960002" />
+    <property role="TrG5h" value="IMember" />
+    <node concept="PrWs8" id="1yUM5L7xvg3" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

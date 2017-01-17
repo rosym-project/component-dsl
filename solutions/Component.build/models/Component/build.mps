@@ -19,6 +19,9 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
+      <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
+        <child id="2750015747481074432" name="path" index="2HvfZ0" />
+      </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -31,6 +34,7 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
+      <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
       </concept>
@@ -140,6 +144,26 @@
         </node>
         <node concept="m$_wl" id="2RDM3_ZXusk" role="39821P">
           <ref role="m_rDy" node="2RDM3_ZXus7" resolve="Component" />
+          <node concept="398223" id="1mVzbKJWPRz" role="39821P">
+            <node concept="3_J27D" id="1mVzbKJWPR$" role="Nbhlr">
+              <node concept="3Mxwew" id="1mVzbKJWPS8" role="3MwsjC">
+                <property role="3MwjfP" value="res" />
+              </node>
+            </node>
+            <node concept="2HvfSZ" id="1mVzbKJWPSU" role="39821P">
+              <node concept="55IIr" id="1mVzbKJWPSV" role="2HvfZ0">
+                <node concept="2Ry0Ak" id="1mVzbKJWPTT" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="1mVzbKJWPUi" role="2Ry0An">
+                    <property role="2Ry0Am" value="Component" />
+                    <node concept="2Ry0Ak" id="1mVzbKJWPUF" role="2Ry0An">
+                      <property role="2Ry0Am" value="res" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
