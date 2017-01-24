@@ -103,6 +103,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -290,8 +298,12 @@
       </node>
       <node concept="35HoNQ" id="5g8KHvCYcF5" role="3EZMnx" />
       <node concept="35HoNQ" id="5g8KHvCYcF6" role="3EZMnx" />
-      <node concept="3F0ifn" id="5g8KHvCYcF7" role="3EZMnx">
-        <property role="3F0ifm" value="Life Cycle:" />
+      <node concept="1X3_iC" id="6r7VLR3weRc" role="lGtFl">
+        <property role="3V$3am" value="childCellModel" />
+        <property role="3V$3ak" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" />
+        <node concept="3F0ifn" id="5g8KHvCYcF7" role="8Wnug">
+          <property role="3F0ifm" value="Life Cycle:" />
+        </node>
       </node>
       <node concept="3F1sOY" id="4VBroJBvlpv" role="3EZMnx">
         <ref role="1NtTu8" to="l1zz:5g8KHvCYReR" resolve="lifeCycle" />
