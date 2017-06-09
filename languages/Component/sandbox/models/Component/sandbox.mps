@@ -197,6 +197,28 @@
         <property role="2GY9xO" value="715.0" />
       </node>
     </node>
+    <node concept="2WYcwU" id="5OiN2Xxr2Ru" role="3ttgI2">
+      <property role="TrG5h" value="sdss" />
+      <ref role="2WYf9R" node="6vNV_8a48bD" resolve="RTTRobotSim" />
+      <node concept="2WYd3i" id="5OiN2Xxr2Xr" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bE" resolve="period" />
+      </node>
+      <node concept="2WYd3i" id="5OiN2Xxr2Xs" role="2WYf99">
+        <ref role="2WYd3v" node="6vNV_8a48bG" resolve="priority" />
+      </node>
+      <node concept="FWJLR" id="5OiN2Xxr2Xt" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48c9" resolve="trqCommand" />
+      </node>
+      <node concept="FWJLR" id="5OiN2Xxr2Xu" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48cM" resolve="trqFeedback" />
+      </node>
+      <node concept="FWJLR" id="5OiN2Xxr2Xv" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48dP" resolve="posFeedback" />
+      </node>
+      <node concept="FWJLR" id="5OiN2Xxr2Xw" role="FWJL0">
+        <ref role="FWJLQ" node="6vNV_8a48fg" resolve="velFeedback" />
+      </node>
+    </node>
   </node>
   <node concept="17RSa1" id="4QWlgMFizik">
     <property role="TrG5h" value="ComanTrqCtrlModule" />
