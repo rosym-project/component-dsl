@@ -2190,5 +2190,21 @@
       <node concept="3clFbS" id="2qZ6NNlpdb7" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6p7_7P95ibK">
+    <ref role="13h7C2" to="l1zz:6p7_7P95i81" resolve="IAutomaticallyGeneratePorts" />
+    <node concept="13i0hz" id="6p7_7P95if7" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="generatePorts" />
+      <node concept="3Tm1VV" id="6p7_7P95if8" role="1B3o_S" />
+      <node concept="2I9FWS" id="6p7_7P95igj" role="3clF45">
+        <ref role="2I9WkF" to="l1zz:1u89nBaZcNu" resolve="IPort" />
+      </node>
+      <node concept="3clFbS" id="6p7_7P95ifa" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="6p7_7P95ibL" role="13h7CW">
+      <node concept="3clFbS" id="6p7_7P95ibM" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

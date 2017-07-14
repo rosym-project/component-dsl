@@ -661,5 +661,16 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="PlHQZ" id="6p7_7P95i81">
+    <property role="EcuMT" value="7370022581033050625" />
+    <property role="TrG5h" value="IAutomaticallyGeneratePorts" />
+    <node concept="1TJgyj" id="6p7_7P95ibe" role="1TKVEi">
+      <property role="IQ2ns" value="7370022581033050830" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="autoGenPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+    </node>
+  </node>
 </model>
 
