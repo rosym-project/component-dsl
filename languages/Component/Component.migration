@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:bf7d7dda-5bd9-4f09-bc28-a190ca996f59(migrationData)">
+  <persistence version="9" />
+  <languages />
+  <imports>
+    <import index="l1zz" ref="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)" implicit="true" />
+    <import index="6co5" ref="r:fa46c9d2-c8a8-4b40-8b2b-52e7b59130d0(Component.editor)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="3017733173184487099" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationDataEntity" flags="ng" index="ZsZFI">
+        <reference id="3017733173184487105" name="generatedMenu" index="ZsZEk" />
+        <reference id="3017733173184487102" name="conceptNode" index="ZsZFF" />
+      </concept>
+      <concept id="3017733173184487098" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationData" flags="ng" index="ZsZFJ">
+        <child id="3017733173184487121" name="entities" index="ZsZE4" />
+      </concept>
+    </language>
+    <language id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util">
+      <concept id="7417095922908669705" name="jetbrains.mps.lang.migration.util.structure.StepData" flags="ng" index="2z5JpS">
+        <property id="1973338949477451252" name="script" index="3qqn2_" />
+        <child id="7417095922908725798" name="data" index="2z5Xdn" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2z5JpS" id="344rOAFaHla">
+    <property role="3qqn2_" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)/8" />
+    <node concept="ZsZFJ" id="344rOAFaHjI" role="2z5Xdn">
+      <node concept="ZsZFI" id="344rOAFaHl8" role="ZsZE4">
+        <ref role="ZsZFF" to="l1zz:4QWlgMFizOO" resolve="SmartRef_IPortRef" />
+        <ref role="ZsZEk" to="6co5:344rOAFaHl2" resolve="SmartRef_IPortRef_SmartReference" />
+      </node>
+    </node>
+  </node>
+</model>
+

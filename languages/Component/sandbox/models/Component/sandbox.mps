@@ -6,7 +6,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
   </languages>
   <imports />
   <registry>
@@ -51,7 +51,6 @@
       </concept>
       <concept id="6776104396491459981" name="Component.structure.Composite" flags="ng" index="17RSa1">
         <child id="6776104396491459999" name="components" index="17RSaj" />
-        <child id="6776104396491460004" name="internalConnections" index="17RSaC" />
         <child id="6776104396491460001" name="proxyPorts" index="17RSaH" />
       </concept>
       <concept id="1695646464731827433" name="Component.structure.Operation" flags="ng" index="3tteAg">
@@ -146,11 +145,6 @@
         <property role="2GY9xO" value="480.0" />
       </node>
     </node>
-    <node concept="3tteA_" id="3ia1uDcsmYO" role="3ttgI7">
-      <property role="TrG5h" value="coman_motion_cmd_flow" />
-      <ref role="3ttcQw" node="4VBroJBve4O" />
-      <ref role="3ttcQ_" node="DXpoAAUzsw" />
-    </node>
     <node concept="2WYcwU" id="6KPXZUiEWpr" role="3ttgI2">
       <property role="TrG5h" value="test" />
       <ref role="2WYf9R" node="5g8KHvCYcDr" resolve="RTTGazeboEmbedded" />
@@ -219,6 +213,11 @@
         <ref role="FWJLQ" node="6vNV_8a48fg" resolve="velFeedback" />
       </node>
     </node>
+    <node concept="3tteA_" id="344rOAFeY22" role="3ttgI7">
+      <property role="TrG5h" value="asss" />
+      <ref role="3ttcQ_" node="4VBroJBve4P" />
+      <ref role="3ttcQw" node="4VBroJBve4O" />
+    </node>
   </node>
   <node concept="17RSa1" id="4QWlgMFizik">
     <property role="TrG5h" value="ComanTrqCtrlModule" />
@@ -275,11 +274,6 @@
       <node concept="FWJLR" id="3ia1uDcsmRZ" role="FWJL0">
         <ref role="FWJLQ" node="3ia1uDcsmOC" resolve="refCommand" />
       </node>
-    </node>
-    <node concept="3tteA_" id="6vNV_8a48l3" role="17RSaC">
-      <property role="TrG5h" value="command_flow" />
-      <ref role="3ttcQ_" node="6vNV_8a48kE" />
-      <ref role="3ttcQw" node="6vNV_8a48i9" />
     </node>
     <node concept="17R$sv" id="3ia1uDcsmSI" role="17RSaH">
       <property role="TrG5h" value="controllerCommandInput" />
