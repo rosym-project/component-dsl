@@ -672,5 +672,19 @@
       <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2YyrWNKSig$">
+    <property role="EcuMT" value="3432428792015037476" />
+    <property role="TrG5h" value="IamGenerated_Annotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2YyrWNKSijx" role="lGtFl">
+      <property role="Hh88m" value="generated" />
+      <node concept="trNpa" id="2YyrWNKSijJ" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+      <node concept="tn0Fv" id="2YyrWNKSijX" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -1181,5 +1181,21 @@
     <ref role="1XX52x" to="l1zz:6CCfj_$sGaS" resolve="SourceOfDeployment" />
     <node concept="2SsqMj" id="5i5XIdnKerW" role="2wV5jI" />
   </node>
+  <node concept="24kQdi" id="2YyrWNKVp2X">
+    <ref role="1XX52x" to="l1zz:2YyrWNKSig$" resolve="IamGenerated_Annotation" />
+    <node concept="3EZMnI" id="2YyrWNKVC65" role="2wV5jI">
+      <node concept="2SsqMj" id="2YyrWNKVC6K" role="3EZMnx" />
+      <node concept="3F0ifn" id="2YyrWNKVC7q" role="3EZMnx">
+        <property role="3F0ifm" value="(generated)" />
+        <node concept="VechU" id="2YyrWNKVCc2" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
+        <node concept="Vb9p2" id="2YyrWNKVCeQ" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2YyrWNKVC68" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
