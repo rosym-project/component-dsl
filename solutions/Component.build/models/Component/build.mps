@@ -119,7 +119,7 @@
       <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="398rNT" id="1CfY4uLAI4$" role="1l3spd">
-      <property role="TrG5h" value="capabilities" />
+      <property role="TrG5h" value="path__capabilities" />
       <node concept="55IIr" id="1CfY4uLAI5k" role="398pKh">
         <node concept="2Ry0Ak" id="1CfY4uLAI5z" role="iGT6I">
           <property role="2Ry0Am" value=".." />
@@ -262,7 +262,7 @@
         <property role="3LESm3" value="4cc07462-84b3-4d01-8adb-629ddd3cebd4" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="1CfY4uLAIaT" role="3LF7KH">
-          <ref role="398BVh" node="1CfY4uLAI4$" resolve="capabilities" />
+          <ref role="398BVh" node="1CfY4uLAI4$" resolve="path__capabilities" />
           <node concept="2Ry0Ak" id="1CfY4uLAIbv" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
             <node concept="2Ry0Ak" id="1CfY4uLAIc4" role="2Ry0An">
