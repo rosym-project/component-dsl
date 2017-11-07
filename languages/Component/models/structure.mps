@@ -381,13 +381,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5g8KHvCW185" resolve="PropertyTarget" />
     </node>
-    <node concept="1TJgyj" id="30W4IWrNIUJ" role="1TKVEi">
-      <property role="IQ2ns" value="3475673830596210351" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="refPorts" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
-    </node>
+  </node>
+  <node concept="PlHQZ" id="5g8KHvCW0FI">
+    <property role="EcuMT" value="6055303931581434606" />
+    <property role="TrG5h" value="IComponentInst" />
+    <property role="3GE5qa" value="Instances" />
     <node concept="1TJgyj" id="5g8KHvCW32w" role="1TKVEi">
       <property role="IQ2ns" value="6055303931581444256" />
       <property role="20lmBu" value="reference" />
@@ -395,11 +393,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1u89nBaZcNq" resolve="Component" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="5g8KHvCW0FI">
-    <property role="EcuMT" value="6055303931581434606" />
-    <property role="TrG5h" value="IComponentInst" />
-    <property role="3GE5qa" value="Instances" />
+    <node concept="1TJgyj" id="rrzP4jZQ74" role="1TKVEi">
+      <property role="IQ2ns" value="494146162517828036" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="refPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+    </node>
     <node concept="PrWs8" id="5g8KHvCW0FL" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -424,13 +424,6 @@
       <property role="20kJfa" value="compositeDescription" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5S9zKKpPwQd" resolve="Composite" />
-    </node>
-    <node concept="1TJgyj" id="378Eyp8Nrmu" role="1TKVEi">
-      <property role="IQ2ns" value="3587304184607520158" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="refPorts" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="5g8KHvCW185">

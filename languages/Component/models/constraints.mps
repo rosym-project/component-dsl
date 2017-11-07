@@ -498,7 +498,7 @@
                               </node>
                               <node concept="359W_D" id="4QWlgMFjcVL" role="37wK5m">
                                 <ref role="359W_E" to="l1zz:5g8KHvCW0FH" resolve="ComponentInst" />
-                                <ref role="359W_F" to="l1zz:30W4IWrNIUJ" resolve="refPorts" />
+                                <ref role="359W_F" to="l1zz:rrzP4jZQ74" resolve="refPorts" />
                               </node>
                             </node>
                           </node>

@@ -89,6 +89,7 @@
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -323,6 +324,7 @@
       </node>
       <node concept="35HoNQ" id="S1KO9bu1L8" role="3EZMnx" />
       <node concept="3EZMnI" id="S1KO9btY7e" role="3EZMnx">
+        <property role="S$Qs1" value="true" />
         <node concept="VPM3Z" id="S1KO9btY7g" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
@@ -1819,58 +1821,7 @@
   <node concept="24kQdi" id="7JjE9FnaMZY">
     <property role="3GE5qa" value="Annotations" />
     <ref role="1XX52x" to="l1zz:7JjE9FnaMZ$" resolve="PositionPersistance" />
-    <node concept="3EZMnI" id="7JjE9FnaN1x" role="2wV5jI">
-      <node concept="l2Vlx" id="7JjE9FnaN1$" role="2iSdaV" />
-      <node concept="2SsqMj" id="7JjE9FnaN2E" role="3EZMnx" />
-      <node concept="3F0ifn" id="7JjE9FnaN2V" role="3EZMnx">
-        <property role="3F0ifm" value="-&gt;" />
-        <node concept="VechU" id="7JjE9FnbsVR" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7JjE9FnaN3n" role="3EZMnx">
-        <property role="3F0ifm" value="[" />
-        <node concept="VechU" id="7JjE9FnbsVX" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="7JjE9FnaN4e" role="3EZMnx">
-        <ref role="1NtTu8" to="l1zz:7JjE9FnaN3C" resolve="x" />
-        <node concept="VechU" id="7JjE9FnbsWf" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-        <node concept="VPxyj" id="4lyQvwNUaPc" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="xShMh" id="4lyQvwNUfTS" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7JjE9FnaN4Y" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="VechU" id="7JjE9FnbsW9" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="7JjE9FnaN5S" role="3EZMnx">
-        <ref role="1NtTu8" to="l1zz:7JjE9FnaN3I" resolve="y" />
-        <node concept="VechU" id="7JjE9FnbsWl" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-        <node concept="VPxyj" id="4lyQvwNUaSU" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="xShMh" id="4lyQvwNUfRV" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7JjE9FnaN6W" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
-        <node concept="VechU" id="7JjE9FnbsW3" role="3F10Kt">
-          <property role="Vb096" value="gray" />
-        </node>
-      </node>
-    </node>
+    <node concept="2SsqMj" id="4OphnvinwF5" role="2wV5jI" />
   </node>
   <node concept="24kQdi" id="7JjE9FnaOSH">
     <property role="3GE5qa" value="Annotations" />
