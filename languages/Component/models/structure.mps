@@ -400,6 +400,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
     </node>
+    <node concept="1TJgyj" id="4dO8lRQCJEQ" role="1TKVEi">
+      <property role="IQ2ns" value="4860546585293159094" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="internalLifeCycle" />
+      <ref role="20lvS9" node="4dO8lRQCIuB" resolve="IInternalLifeCycleLike" />
+    </node>
     <node concept="PrWs8" id="5g8KHvCW0FL" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -681,6 +687,10 @@
         <property role="tnX3d" value="false" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="4dO8lRQCIuB">
+    <property role="EcuMT" value="4860546585293154215" />
+    <property role="TrG5h" value="IInternalLifeCycleLike" />
   </node>
 </model>
 
