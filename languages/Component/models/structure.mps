@@ -176,6 +176,9 @@
     <node concept="PrWs8" id="1u89nBaZezj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="7tg6lh6W94d" role="PzmwI">
+      <ref role="PrY4T" node="7tg6lh6W90v" resolve="IPositionsPersistanceList" />
+    </node>
     <node concept="1TJgyj" id="1u89nBaZezp" role="1TKVEi">
       <property role="IQ2ns" value="1695646464731834585" />
       <property role="20lmBu" value="reference" />
@@ -691,6 +694,46 @@
   <node concept="PlHQZ" id="4dO8lRQCIuB">
     <property role="EcuMT" value="4860546585293154215" />
     <property role="TrG5h" value="IInternalLifeCycleLike" />
+  </node>
+  <node concept="1TIwiD" id="7tg6lh6UxbU">
+    <property role="EcuMT" value="8597399538407969530" />
+    <property role="TrG5h" value="PositionPersistanceList" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="7tg6lh6Uxzz" role="1TKVEi">
+      <property role="IQ2ns" value="8597399538407971043" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="coordinates" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7tg6lh6Uxvl" resolve="Coordinates" />
+    </node>
+    <node concept="M6xJ_" id="7tg6lh6Uxrz" role="lGtFl">
+      <property role="Hh88m" value="PositionPersistanceList" />
+      <node concept="tn0Fv" id="7tg6lh6Uxv4" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="7tg6lh6Wg08" role="EQaZv">
+        <ref role="trN6q" node="7tg6lh6W90v" resolve="IPositionsPersistanceList" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tg6lh6Uxvl">
+    <property role="EcuMT" value="8597399538407970773" />
+    <property role="TrG5h" value="Coordinates" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7tg6lh6Uxz3" role="1TKVEl">
+      <property role="IQ2nx" value="8597399538407971011" />
+      <property role="TrG5h" value="x" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7tg6lh6Uxzb" role="1TKVEl">
+      <property role="IQ2nx" value="8597399538407971019" />
+      <property role="TrG5h" value="y" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7tg6lh6W90v">
+    <property role="EcuMT" value="8597399538408394783" />
+    <property role="TrG5h" value="IPositionsPersistanceList" />
   </node>
 </model>
 

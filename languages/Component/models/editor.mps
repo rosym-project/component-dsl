@@ -2100,5 +2100,43 @@
     </node>
     <node concept="382kZG" id="344rOAFaHl3" role="lGtFl" />
   </node>
+  <node concept="24kQdi" id="7tg6lh6UxE$">
+    <ref role="1XX52x" to="l1zz:7tg6lh6UxbU" resolve="PositionPersistanceList" />
+    <node concept="3EZMnI" id="7tg6lh6UxIj" role="2wV5jI">
+      <node concept="2SsqMj" id="7tg6lh6UxIG" role="3EZMnx" />
+      <node concept="3F0ifn" id="7tg6lh6UxJ4" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="7tg6lh6UxKN" role="3EZMnx">
+        <ref role="1NtTu8" to="l1zz:7tg6lh6Uxzz" resolve="coordinates" />
+        <node concept="l2Vlx" id="7tg6lh6UxKP" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7tg6lh6UxLQ" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="7tg6lh6UxIm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7tg6lh6UxMz">
+    <ref role="1XX52x" to="l1zz:7tg6lh6Uxvl" resolve="Coordinates" />
+    <node concept="3EZMnI" id="7tg6lh6UxQi" role="2wV5jI">
+      <node concept="3F0ifn" id="7tg6lh6UxQF" role="3EZMnx">
+        <property role="3F0ifm" value="x" />
+      </node>
+      <node concept="3F0A7n" id="7tg6lh6UxR3" role="3EZMnx">
+        <ref role="1NtTu8" to="l1zz:7tg6lh6Uxz3" resolve="x" />
+      </node>
+      <node concept="3F0ifn" id="7tg6lh6UxRD" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+      </node>
+      <node concept="3F0ifn" id="7tg6lh6UxSt" role="3EZMnx">
+        <property role="3F0ifm" value="y" />
+      </node>
+      <node concept="3F0A7n" id="7tg6lh6UxTv" role="3EZMnx">
+        <ref role="1NtTu8" to="l1zz:7tg6lh6Uxzb" resolve="y" />
+      </node>
+      <node concept="l2Vlx" id="7tg6lh6UxQl" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
