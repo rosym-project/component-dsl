@@ -254,6 +254,12 @@
     <node concept="PrWs8" id="1yUM5L7xvgo" role="PzmwI">
       <ref role="PrY4T" node="1yUM5L7xvg2" resolve="IMember" />
     </node>
+    <node concept="PrWs8" id="6rijOoKBxtF" role="PzmwI">
+      <ref role="PrY4T" node="6rijOoKumIo" resolve="ICanBeCommented" />
+    </node>
+    <node concept="PrWs8" id="6rijOoKBxum" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNE">
     <property role="EcuMT" value="1695646464731827434" />
@@ -344,6 +350,9 @@
   <node concept="PlHQZ" id="5S9zKKpPwQe">
     <property role="EcuMT" value="6776104396491459982" />
     <property role="TrG5h" value="IComponent" />
+    <node concept="PrWs8" id="6rijOoKun2r" role="PrDN$">
+      <ref role="PrY4T" node="6rijOoKumIo" resolve="ICanBeCommented" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5S9zKKpPWwj">
     <property role="EcuMT" value="6776104396491573267" />
@@ -734,6 +743,93 @@
   <node concept="PlHQZ" id="7tg6lh6W90v">
     <property role="EcuMT" value="8597399538408394783" />
     <property role="TrG5h" value="IPositionsPersistanceList" />
+  </node>
+  <node concept="1TIwiD" id="6rijOoKumDd">
+    <property role="EcuMT" value="7409071499857455693" />
+    <property role="3GE5qa" value="Annotations.Comment" />
+    <property role="TrG5h" value="ComponentComment" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="6rijOoKun8R" role="1TKVEi">
+      <property role="IQ2ns" value="7409071499857457719" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6rijOoKyM39" resolve="ILineComment" />
+    </node>
+    <node concept="1TJgyj" id="6rijOoKzZC4" role="1TKVEi">
+      <property role="IQ2ns" value="7409071499858934276" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6rijOoKyM2Q" resolve="ParameterRefLineComment" />
+    </node>
+    <node concept="1TJgyj" id="6rijOoKzZBN" role="1TKVEi">
+      <property role="IQ2ns" value="7409071499858934259" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6rijOoKzZAL" resolve="Author" />
+    </node>
+    <node concept="M6xJ_" id="6rijOoKumFK" role="lGtFl">
+      <property role="Hh88m" value="component_comment" />
+      <node concept="tn0Fv" id="6rijOoKumIf" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="6rijOoKumIF" role="EQaZv">
+        <ref role="trN6q" node="6rijOoKumIo" resolve="ICanBeCommented" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="6rijOoKAsej" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6rijOoKumIo">
+    <property role="EcuMT" value="7409071499857456024" />
+    <property role="TrG5h" value="ICanBeCommented" />
+  </node>
+  <node concept="1TIwiD" id="6rijOoKun7_">
+    <property role="EcuMT" value="7409071499857457637" />
+    <property role="3GE5qa" value="Annotations.Comment" />
+    <property role="TrG5h" value="SingleLineComment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6rijOoKyM3s" role="PzmwI">
+      <ref role="PrY4T" node="6rijOoKyM39" resolve="ILineComment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6rijOoKyM2Q">
+    <property role="EcuMT" value="7409071499858616502" />
+    <property role="3GE5qa" value="Annotations.Comment" />
+    <property role="TrG5h" value="ParameterRefLineComment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6rijOoKyM3I" role="PzmwI">
+      <ref role="PrY4T" node="6rijOoKyM39" resolve="ILineComment" />
+    </node>
+    <node concept="1TJgyj" id="6rijOoKyM8y" role="1TKVEi">
+      <property role="IQ2ns" value="7409071499858616866" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4VBroJBtlJW" resolve="Parameter" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6rijOoKyM39">
+    <property role="EcuMT" value="7409071499858616521" />
+    <property role="3GE5qa" value="Annotations.Comment" />
+    <property role="TrG5h" value="ILineComment" />
+    <node concept="1TJgyi" id="6rijOoKyM41" role="1TKVEl">
+      <property role="IQ2nx" value="7409071499858616577" />
+      <property role="TrG5h" value="line" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6rijOoKzZAL">
+    <property role="EcuMT" value="7409071499858934193" />
+    <property role="3GE5qa" value="Annotations.Comment" />
+    <property role="TrG5h" value="Author" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6rijOoKzZB4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
