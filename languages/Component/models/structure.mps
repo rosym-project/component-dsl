@@ -831,5 +831,42 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6gLnIBJBx6C">
+    <property role="EcuMT" value="7219656036492120488" />
+    <property role="3GE5qa" value="Annotations" />
+    <property role="TrG5h" value="ReportComponentInstAnnotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="6gLnIBJDPcG" role="1TKVEi">
+      <property role="IQ2ns" value="7219656036492727084" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="reportedPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6gLnIBJDPfz" resolve="IPortRefWithParentScope" />
+    </node>
+    <node concept="1TJgyj" id="6gLnIBJBx77" role="1TKVEi">
+      <property role="IQ2ns" value="7219656036492120519" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="hidden_component" />
+      <ref role="20lvS9" node="5g8KHvCW0FI" resolve="IComponentInst" />
+    </node>
+    <node concept="M6xJ_" id="6gLnIBJBx6D" role="lGtFl">
+      <property role="Hh88m" value="reporter" />
+      <node concept="trNpa" id="6gLnIBJDPc0" role="EQaZv">
+        <ref role="trN6q" node="5g8KHvCW0FI" resolve="IComponentInst" />
+      </node>
+      <node concept="tn0Fv" id="6gLnIBJBx6X" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="6gLnIBJEf0c" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6gLnIBJDPfz">
+    <property role="EcuMT" value="7219656036492727267" />
+    <property role="3GE5qa" value="References" />
+    <property role="TrG5h" value="IPortRefWithParentScope" />
+    <ref role="1TJDcQ" node="30W4IWrNIUo" resolve="IPortRef" />
+  </node>
 </model>
 

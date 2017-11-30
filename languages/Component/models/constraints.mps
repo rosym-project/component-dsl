@@ -1052,5 +1052,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6gLnIBJDPf$">
+    <property role="3GE5qa" value="References" />
+    <ref role="1M2myG" to="l1zz:6gLnIBJDPfz" resolve="IPortRefWithParentScope" />
+    <node concept="1N5Pfh" id="6gLnIBJDPf_" role="1Mr941">
+      <ref role="1N5Vy1" to="l1zz:30W4IWrNIUp" resolve="port" />
+      <node concept="1dDu$B" id="6gLnIBJDPfJ" role="1N6uqs">
+        <ref role="1dDu$A" to="l1zz:1u89nBaZcNu" resolve="IPort" />
+      </node>
+    </node>
+  </node>
 </model>
 

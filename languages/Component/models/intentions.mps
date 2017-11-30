@@ -136,6 +136,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
+        <child id="8182547171709752112" name="expression" index="36biLW" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -180,6 +183,7 @@
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="2S6QgY" id="5g8KHvCWPOH">
@@ -908,6 +912,135 @@
                   <node concept="2oxUTD" id="6rijOoKuo_f" role="2OqNvi">
                     <node concept="10Nm6u" id="6rijOoKuo_g" role="2oxUTC" />
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6gLnIBJBIZI">
+    <property role="TrG5h" value="AddReporterForComponentInst" />
+    <ref role="2ZfgGC" to="l1zz:5g8KHvCW0FI" resolve="IComponentInst" />
+    <node concept="2S6ZIM" id="6gLnIBJBIZJ" role="2ZfVej">
+      <node concept="3clFbS" id="6gLnIBJBIZK" role="2VODD2">
+        <node concept="3clFbJ" id="6gLnIBJBIZL" role="3cqZAp">
+          <node concept="2OqwBi" id="6gLnIBJBIZM" role="3clFbw">
+            <node concept="2OqwBi" id="6gLnIBJBIZN" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6gLnIBJBIZO" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="6gLnIBJBIZP" role="2OqNvi">
+                <node concept="3CFYIy" id="6gLnIBJEKuh" role="3CFYIz">
+                  <ref role="3CFYIx" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="6gLnIBJBIZR" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="6gLnIBJBIZS" role="3clFbx">
+            <node concept="3cpWs6" id="6gLnIBJBIZT" role="3cqZAp">
+              <node concept="Xl_RD" id="6gLnIBJBIZU" role="3cqZAk">
+                <property role="Xl_RC" value="Add Reporter" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="6gLnIBJBIZV" role="9aQIa">
+            <node concept="3clFbS" id="6gLnIBJBIZW" role="9aQI4">
+              <node concept="3cpWs6" id="6gLnIBJBIZX" role="3cqZAp">
+                <node concept="Xl_RD" id="6gLnIBJBIZY" role="3cqZAk">
+                  <property role="Xl_RC" value="Remove Reporter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6gLnIBJBIZZ" role="2ZfgGD">
+      <node concept="3clFbS" id="6gLnIBJBJ00" role="2VODD2">
+        <node concept="3clFbJ" id="6gLnIBJBJ01" role="3cqZAp">
+          <node concept="3clFbS" id="6gLnIBJBJ02" role="3clFbx">
+            <node concept="3clFbF" id="6gLnIBJBJ03" role="3cqZAp">
+              <node concept="37vLTI" id="6gLnIBJBJ04" role="3clFbG">
+                <node concept="2OqwBi" id="6gLnIBJBJ05" role="37vLTJ">
+                  <node concept="2Sf5sV" id="6gLnIBJBJ06" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="6gLnIBJBJ07" role="2OqNvi">
+                    <node concept="3CFYIy" id="6gLnIBJBNnR" role="3CFYIz">
+                      <ref role="3CFYIx" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2pJPEk" id="6gLnIBJBNGH" role="37vLTx">
+                  <node concept="2pJPED" id="6gLnIBJBNMB" role="2pJPEn">
+                    <ref role="2pJxaS" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
+                    <node concept="2pIpSj" id="6gLnIBJBRqs" role="2pJxcM">
+                      <ref role="2pIpSl" to="l1zz:6gLnIBJBx77" resolve="hidden_component" />
+                      <node concept="36biLy" id="6gLnIBJBRuT" role="2pJxcZ">
+                        <node concept="2Sf5sV" id="6gLnIBJBRxs" role="36biLW" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6gLnIBJBJ0f" role="3clFbw">
+            <node concept="2OqwBi" id="6gLnIBJBJ0g" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6gLnIBJBJ0h" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="6gLnIBJBJ0i" role="2OqNvi">
+                <node concept="3CFYIy" id="6gLnIBJEKFp" role="3CFYIz">
+                  <ref role="3CFYIx" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="6gLnIBJBJ0k" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="6gLnIBJBJ0l" role="9aQIa">
+            <node concept="3clFbS" id="6gLnIBJBJ0m" role="9aQI4">
+              <node concept="3clFbF" id="6gLnIBJBJ0n" role="3cqZAp">
+                <node concept="2OqwBi" id="6gLnIBJBJ0o" role="3clFbG">
+                  <node concept="2OqwBi" id="6gLnIBJBJ0p" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="6gLnIBJBJ0q" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="6gLnIBJBJ0r" role="2OqNvi">
+                      <node concept="3CFYIy" id="6gLnIBJESld" role="3CFYIz">
+                        <ref role="3CFYIx" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2oxUTD" id="6gLnIBJBJ0t" role="2OqNvi">
+                    <node concept="10Nm6u" id="6gLnIBJBJ0u" role="2oxUTC" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="6gLnIBJBTup" role="2ZfVeh">
+      <node concept="3clFbS" id="6gLnIBJBTuq" role="2VODD2">
+        <node concept="3clFbJ" id="6gLnIBJELcU" role="3cqZAp">
+          <node concept="3clFbS" id="6gLnIBJELcW" role="3clFbx">
+            <node concept="3cpWs6" id="6gLnIBJEQDj" role="3cqZAp">
+              <node concept="3clFbT" id="6gLnIBJEQTI" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6gLnIBJENTZ" role="3clFbw">
+            <node concept="2OqwBi" id="6gLnIBJELL0" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6gLnIBJELxk" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6gLnIBJEM9o" role="2OqNvi">
+                <ref role="3TtcxE" to="l1zz:rrzP4jZQ74" resolve="refPorts" />
+              </node>
+            </node>
+            <node concept="3GX2aA" id="6gLnIBJEQpg" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="6gLnIBJERa7" role="9aQIa">
+            <node concept="3clFbS" id="6gLnIBJERa8" role="9aQI4">
+              <node concept="3cpWs6" id="6gLnIBJERqt" role="3cqZAp">
+                <node concept="3clFbT" id="6gLnIBJERqT" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
                 </node>
               </node>
             </node>
