@@ -43,7 +43,6 @@
         <description>Language to describe the static view of a component-based robotic system.</description>
         <version>${current_version}</version>
         <vendor url="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=46595843">Dennis Leroy Wigand</vendor>
-        <depends>jetbrains.mps.core</depends>
         <depends>cosmo.dimensions</depends>
         <vendor email="dwigand@techfak.uni-bielefeld.de" url="https://github.com/xwavex">Dennis Leroy Wigand</vendor>
         <idea-version until-build="172.1347" since-build="172.1347" />
