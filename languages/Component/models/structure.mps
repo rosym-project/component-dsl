@@ -126,7 +126,7 @@
       <ref role="20lvS9" node="4VBroJBs4v2" resolve="ILifeCycle" />
     </node>
     <node concept="1QGGSu" id="3bwealO7x9J" role="rwd14">
-      <property role="1iqoE4" value="${module}/res/componentIcon.png" />
+      <property role="1iqoE4" value="${module}/icons/componentIcon.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNr">
@@ -156,8 +156,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1u89nBaZcNs" resolve="Connection" />
     </node>
-    <node concept="1QGGSu" id="3bwealOc0v4" role="rwd14">
-      <property role="1iqoE4" value="${module}/res/systemIcon.png" />
+    <node concept="1QGGSu" id="5rOL1wKD158" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/systemIcon.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="1u89nBaZcNs">

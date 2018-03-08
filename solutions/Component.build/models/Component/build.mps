@@ -44,6 +44,10 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262033862" name="copyResources" index="2_Ic$B" />
+        <child id="927724900262033863" name="resourceSelectors" index="2_Ic$A" />
+      </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
         <child id="2750015747481074432" name="path" index="2HvfZ0" />
       </concept>
@@ -75,6 +79,9 @@
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
+      </concept>
+      <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
+        <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
@@ -158,6 +165,12 @@
     <property role="TrG5h" value="Component" />
     <property role="2DA0ip" value="../../" />
     <property role="turDy" value="build-plugin-mps.xml" />
+    <node concept="2_Ic$z" id="6oJjy68bV5k" role="3989C9">
+      <property role="2_Ic$B" value="true" />
+      <node concept="3qWCbU" id="6oJjy68bV9V" role="2_Ic$A">
+        <property role="3qWCbO" value="**/*.properties, **/*.xml, **/*.png, **/*.zip, **/*.info" />
+      </node>
+    </node>
     <node concept="10PD9b" id="2RDM3_ZXurV" role="10PD9s" />
     <node concept="3b7kt6" id="2RDM3_ZXurW" role="10PD9s" />
     <node concept="398rNT" id="2RDM3_ZXurX" role="1l3spd">
@@ -234,26 +247,46 @@
     <node concept="1l3spV" id="2RDM3_ZXusg" role="1l3spN">
       <node concept="3981dG" id="2RDM3_ZXush" role="39821P">
         <node concept="3_J27D" id="2RDM3_ZXusi" role="Nbhlr">
-          <node concept="3Mxwew" id="2RDM3_ZXusj" role="3MwsjC">
-            <property role="3MwjfP" value="Component.zip" />
+          <node concept="3Mxwew" id="6WODK$bWR0M" role="3MwsjC">
+            <property role="3MwjfP" value="Component-" />
+          </node>
+          <node concept="3Mxwey" id="6WODK$bWR3_" role="3MwsjC">
+            <ref role="3Mxwex" node="27wsLp9JmP9" resolve="current_version" />
+          </node>
+          <node concept="3Mxwew" id="6WODK$bWR2U" role="3MwsjC">
+            <property role="3MwjfP" value="-" />
+          </node>
+          <node concept="3Mxwey" id="6WODK$bWVPb" role="3MwsjC">
+            <ref role="3Mxwex" to="ffeo:3IKDaVZnAxg" resolve="build.number" />
+          </node>
+          <node concept="3Mxwew" id="6WODK$bWVPa" role="3MwsjC">
+            <property role="3MwjfP" value="-" />
+          </node>
+          <node concept="3Mxwey" id="6WODK$bWR4e" role="3MwsjC">
+            <ref role="3Mxwex" to="ffeo:5HVSRHdVf2d" resolve="version" />
+          </node>
+          <node concept="3Mxwew" id="6WODK$bWR4d" role="3MwsjC">
+            <property role="3MwjfP" value=".zip" />
           </node>
         </node>
         <node concept="m$_wl" id="2RDM3_ZXusk" role="39821P">
           <ref role="m_rDy" node="2RDM3_ZXus7" resolve="Component" />
-          <node concept="398223" id="1mVzbKJWPRz" role="39821P">
-            <node concept="3_J27D" id="1mVzbKJWPR$" role="Nbhlr">
-              <node concept="3Mxwew" id="1mVzbKJWPS8" role="3MwsjC">
-                <property role="3MwjfP" value="res" />
+          <node concept="1X3_iC" id="6WODK$bWQZk" role="lGtFl">
+            <property role="3V$3am" value="children" />
+            <property role="3V$3ak" value="798100da-4f0a-421a-b991-71f8c50ce5d2/4701820937132344003/7389400916848037006" />
+            <node concept="398223" id="1mVzbKJWPRz" role="8Wnug">
+              <node concept="3_J27D" id="1mVzbKJWPR$" role="Nbhlr">
+                <node concept="3Mxwew" id="1mVzbKJWPS8" role="3MwsjC">
+                  <property role="3MwjfP" value="icons" />
+                </node>
               </node>
-            </node>
-            <node concept="2HvfSZ" id="1mVzbKJWPSU" role="39821P">
-              <node concept="55IIr" id="1mVzbKJWPSV" role="2HvfZ0">
-                <node concept="2Ry0Ak" id="1mVzbKJWPTT" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1mVzbKJWPUi" role="2Ry0An">
-                    <property role="2Ry0Am" value="Component" />
-                    <node concept="2Ry0Ak" id="1mVzbKJWPUF" role="2Ry0An">
-                      <property role="2Ry0Am" value="res" />
+              <node concept="2HvfSZ" id="1mVzbKJWPSU" role="39821P">
+                <node concept="55IIr" id="1mVzbKJWPSV" role="2HvfZ0">
+                  <node concept="2Ry0Ak" id="1mVzbKJWPTT" role="iGT6I">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="1mVzbKJWPUi" role="2Ry0An">
+                      <property role="2Ry0Am" value="Component" />
+                      <node concept="2Ry0Ak" id="1mVzbKJWPUF" role="2Ry0An" />
                     </node>
                   </node>
                 </node>
@@ -309,14 +342,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="2RDM3_ZXusc" role="m$_yh">
-        <ref role="m$f5T" node="2RDM3_ZXus6" resolve="Component" />
-      </node>
-      <node concept="1X3_iC" id="7Z994Ie_Ffz" role="lGtFl">
-        <property role="3V$3am" value="dependencies" />
-        <property role="3V$3ak" value="0cf935df-4699-4e9c-a132-fa109541cba3/6592112598314498932/6592112598314499028" />
-        <node concept="m$_yC" id="2RDM3_ZXusd" role="8Wnug">
-          <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-        </node>
+        <ref role="m$f5T" node="2RDM3_ZXus6" resolve="ComponentGroup" />
       </node>
       <node concept="m$_yC" id="3ddCaS_x$BT" role="m$_yJ">
         <ref role="m$_y1" to="223r:44Dwksk3ZM$" resolve="cosmo.dimensions" />
@@ -337,7 +363,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="2RDM3_ZXus6" role="3989C9">
-      <property role="TrG5h" value="Component" />
+      <property role="TrG5h" value="ComponentGroup" />
       <node concept="1E1JtD" id="2RDM3_ZXus5" role="2G$12L">
         <property role="BnDLt" value="false" />
         <property role="TrG5h" value="Component" />

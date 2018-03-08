@@ -33,10 +33,10 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/Component.zip" />
-    <mkdir dir="${build.tmp}/default/Component.zip/Component" />
-    <mkdir dir="${build.tmp}/default/Component.zip/Component/META-INF" />
-    <echoxml file="${build.tmp}/default/Component.zip/Component/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component" />
+    <mkdir dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/META-INF" />
+    <echoxml file="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>Component</id>
         <name>Component</name>
@@ -52,8 +52,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/Component.zip/Component/languages" />
-    <mkdir dir="${build.tmp}/default/Component.zip/Component/languages/Component" />
+    <mkdir dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages" />
+    <mkdir dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages/ComponentGroup" />
     <mkdir dir="${build.tmp}/default/Component.jar" />
     <mkdir dir="${build.tmp}/default/Component.jar/META-INF" />
     <echoxml file="${build.tmp}/default/Component.jar/META-INF/module.xml">
@@ -80,7 +80,7 @@
         <sources jar="Component-src.jar" descriptor="Component.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Component.zip/Component/languages/Component/Component.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages/ComponentGroup/Component.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/Component" />
       <fileset dir="${basedir}/languages/Component" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/languages/Component/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -89,7 +89,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-Component-models">
       <fileset dir="${basedir}/languages/Component/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Component.zip/Component/languages/Component/Component-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages/ComponentGroup/Component-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/Component/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -110,7 +110,7 @@
         <sources jar="Component.build-src.jar" descriptor="Component.build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Component.zip/Component/languages/Component/Component.build.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages/ComponentGroup/Component.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/Component.build" />
       <fileset dir="${basedir}/solutions/Component.build" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/solutions/Component.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -119,7 +119,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-Component.build-models">
       <fileset dir="${basedir}/solutions/Component.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Component.zip/Component/languages/Component/Component.build-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip/Component/languages/ComponentGroup/Component.build-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/Component.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -129,9 +129,8 @@
       <zipfileset file="${basedir}/solutions/Component.build/Component.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-Component.build-models" prefix="module/models" />
     </jar>
-    <zip destfile="${build.layout}/Component.zip">
-      <zipfileset dir="${basedir}/languages/Component/res" prefix="Component/res" />
-      <fileset dir="${build.tmp}/default/Component.zip" />
+    <zip destfile="${build.layout}/Component-${current_version}-${mps.build.number}-${mpsBootstrapCore.version}.zip">
+      <fileset dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">Component.current_version=${current_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}cosmo.dimensions.current_version=${cosmo.dimensions.current_version}${line.separator}Kinematics.current_version=${Kinematics.current_version}</echo>
   </target>
@@ -139,10 +138,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
-    <unzip src="${artifacts.cosmo.dimensions}/cosmo.dimensions.zip" dest="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
     <mkdir dir="${build.tmp}/deps/Kinematics/Kinematics.zip" />
     <unzip src="${artifacts.Kinematics}/Kinematics.zip" dest="${build.tmp}/deps/Kinematics/Kinematics.zip" />
+    <mkdir dir="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
+    <unzip src="${artifacts.cosmo.dimensions}/cosmo.dimensions.zip" dest="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -264,7 +263,7 @@
   <target name="java.compile.Component" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/Component/source_gen" />
     <mkdir dir="${build.tmp}/java/out/Component" />
-    <javac destdir="${build.tmp}/java/out/Component" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+    <javac destdir="${build.tmp}/java/out/Component" fork="false" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/Component/source_gen" />
@@ -303,12 +302,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/Component">
+      <fileset dir="${basedir}/languages/Component/source_gen" includes="**/*.properties, **/*.xml, **/*.png, **/*.zip, **/*.info" />
+    </copy>
   </target>
   
   <target name="java.compile.Component.build">
     <mkdir dir="${basedir}/solutions/Component.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/Component.build" />
-    <javac destdir="${build.tmp}/java/out/Component.build" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+    <javac destdir="${build.tmp}/java/out/Component.build" fork="false" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/Component.build/source_gen" />
@@ -318,6 +320,9 @@
         <fileset file="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions/languages/cosmo.dimensions/cosmo.dimensions.build.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/Component.build">
+      <fileset dir="${basedir}/solutions/Component.build/source_gen" includes="**/*.properties, **/*.xml, **/*.png, **/*.zip, **/*.info" />
+    </copy>
   </target>
   
   <target name="cleanSources">
