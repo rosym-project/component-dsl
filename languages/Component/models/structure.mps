@@ -379,6 +379,12 @@
     <property role="TrG5h" value="ComponentInst" />
     <property role="3GE5qa" value="Instances" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3LvALAr42aO" role="1TKVEi">
+      <property role="IQ2ns" value="4350366299341202100" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="stateMachine" />
+      <ref role="20lvS9" node="4VBroJBs4v2" resolve="ILifeCycle" />
+    </node>
     <node concept="PrWs8" id="5g8KHvCW0FJ" role="PzmwI">
       <ref role="PrY4T" node="5g8KHvCW0FI" resolve="IComponentInst" />
     </node>
