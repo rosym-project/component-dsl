@@ -423,6 +423,20 @@
       <property role="20kJfa" value="internalLifeCycle" />
       <ref role="20lvS9" node="4dO8lRQCIuB" resolve="IInternalLifeCycleLike" />
     </node>
+    <node concept="1TJgyj" id="1WZFxKpQc0S" role="1TKVEi">
+      <property role="IQ2ns" value="2251709774424490040" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="hidden_dynamicPorts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1u89nBaZcNu" resolve="IPort" />
+    </node>
+    <node concept="1TJgyj" id="1WZFxKpQB$y" role="1TKVEi">
+      <property role="IQ2ns" value="2251709774424602914" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="hidden_dynamicPortRefs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="30W4IWrNIUo" resolve="IPortRef" />
+    </node>
     <node concept="PrWs8" id="5g8KHvCW0FL" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
