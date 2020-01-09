@@ -2,7 +2,7 @@
 <model ref="r:2cc4e28e-d271-4549-8a85-6bb736b8d740(Component.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -122,12 +122,11 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -601,7 +600,7 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaOR4" resolve="InterfaceGroup" />
                     <node concept="2pJxcG" id="7JjE9Fnb1Mu" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaOS9" resolve="interfaceName" />
-                      <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="2pJxcZ">
+                      <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="28ntcv">
                         <property role="Xl_RC" value="insert name here" />
                       </node>
                     </node>
@@ -699,13 +698,13 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaMZ$" resolve="PositionPersistance" />
                     <node concept="2pJxcG" id="4lyQvwNTXNz" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3C" resolve="x" />
-                      <node concept="Xl_RD" id="4lyQvwNTYkw" role="2pJxcZ">
+                      <node concept="Xl_RD" id="4lyQvwNTYkw" role="28ntcv">
                         <property role="Xl_RC" value="0.0" />
                       </node>
                     </node>
                     <node concept="2pJxcG" id="4lyQvwNTYqZ" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3I" resolve="y" />
-                      <node concept="Xl_RD" id="4lyQvwNTYvk" role="2pJxcZ">
+                      <node concept="Xl_RD" id="4lyQvwNTYvk" role="28ntcv">
                         <property role="Xl_RC" value="0.0" />
                       </node>
                     </node>
@@ -872,13 +871,15 @@
                       <ref role="2pJxaS" to="l1zz:6rijOoKumDd" resolve="ComponentComment" />
                       <node concept="2pIpSj" id="6rijOoKvDDA" role="2pJxcM">
                         <ref role="2pIpSl" to="l1zz:6rijOoKun8R" resolve="lines" />
-                        <node concept="2pJPED" id="6rijOoKvDEi" role="2pJxcZ">
+                        <node concept="2pJPED" id="6rijOoKvDEi" role="28nt2d">
                           <ref role="2pJxaS" to="l1zz:6rijOoKun7_" resolve="SingleLineComment" />
                         </node>
                       </node>
-                      <node concept="2pIpSj" id="6rijOoK_Opi" role="2pJxcM">
+                      <node concept="2pIpSj" id="6U$LN6kl5nI" role="2pJxcM">
                         <ref role="2pIpSl" to="l1zz:6rijOoKzZBN" resolve="authors" />
-                        <node concept="10Nm6u" id="6rijOoK_Oue" role="2pJxcZ" />
+                        <node concept="2pJPED" id="6U$LN6kl5$Y" role="28nt2d">
+                          <ref role="2pJxaS" to="l1zz:6rijOoKzZAL" resolve="Author" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -975,7 +976,7 @@
                     <ref role="2pJxaS" to="l1zz:6gLnIBJBx6C" resolve="ReportComponentInstAnnotation" />
                     <node concept="2pIpSj" id="6gLnIBJBRqs" role="2pJxcM">
                       <ref role="2pIpSl" to="l1zz:6gLnIBJBx77" resolve="hidden_component" />
-                      <node concept="36biLy" id="6gLnIBJBRuT" role="2pJxcZ">
+                      <node concept="36biLy" id="6gLnIBJBRuT" role="28nt2d">
                         <node concept="2Sf5sV" id="6gLnIBJBRxs" role="36biLW" />
                       </node>
                     </node>
