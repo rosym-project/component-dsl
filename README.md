@@ -1,6 +1,6 @@
 # Component DSL
 
-This project provides an MPS language for describing systems in term of component classes, component instances and connections between component ports.
+This project provides an MPS language for describing systems in terms of component classes, component instances and connections between component ports.
 
 TODO More Overview
 
