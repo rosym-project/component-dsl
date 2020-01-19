@@ -4,7 +4,7 @@ This project provides an MPS language for describing systems in terms of compone
 
 TODO More Overview
 
-## Hello Word Example
+## Hello World Example
 
 This project includes a model for a simple hypothetical robotic system.
 The system consists of three components:
