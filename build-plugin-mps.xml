@@ -4,14 +4,14 @@
   <property name="build.tmp" location="${build.dir}/tmp/Component" />
   <property name="build.layout" location="${build.dir}/artifacts/Component" />
   <property name="mps_home" location="" />
-  <property name="capabilities_home" location="${basedir}/../cosmo.dimensions/build/artifacts/cosmo.dimensions" />
-  <property name="kinematics_home" location="${basedir}/../kinematics-dsl/build/artifacts/Kinematics" />
+  <property name="capabilities_home" location="${basedir}/../dimensions-dsl/build/artifacts/dimensions" />
+  <property name="kinematics_home" location="${basedir}/../kinematic-chains-dsl/build/artifacts/KinematicChains" />
   <property name="current_version" value="1.0.0" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.cosmo.dimensions" location="${capabilities_home}" />
-  <property name="artifacts.Kinematics" location="${kinematics_home}" />
+  <property name="artifacts.dimensions" location="${capabilities_home}" />
+  <property name="artifacts.KinematicChains" location="${kinematics_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
-  <property file="${artifacts.cosmo.dimensions}/build.properties" prefix="import.cosmo.dimensions" />
+  <property file="${artifacts.dimensions}/build.properties" prefix="import.dimensions" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
   <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
@@ -19,8 +19,8 @@
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mps.mps.build.counter" value="${import.mps.mps.mps.build.counter}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
-  <property name="cosmo.dimensions.current_version" value="${import.cosmo.dimensions.cosmo.dimensions.current_version}" />
-  <property name="Kinematics.current_version" value="${import.cosmo.dimensions.Kinematics.current_version}" />
+  <property name="dimensions.current_version" value="${import.dimensions.dimensions.current_version}" />
+  <property name="KinematicChains.current_version" value="${import.dimensions.KinematicChains.current_version}" />
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
@@ -44,7 +44,7 @@
         <description>Language to describe the static view of a component-based robotic system.</description>
         <version>${current_version}</version>
         <vendor url="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=46595843">Dennis Leroy Wigand</vendor>
-        <depends>cosmo.dimensions</depends>
+        <depends>dimensions</depends>
         <vendor email="dwigand@techfak.uni-bielefeld.de" url="https://github.com/xwavex">Dennis Leroy Wigand</vendor>
         <idea-version until-build="172.1347" since-build="172.1347" />
         
@@ -166,7 +166,7 @@
     <echoxml file="${build.tmp}/default/Component.build.jar/META-INF/module.xml">
       <module namespace="Component.build" type="solution" uuid="4691e682-eff5-47bd-bb71-48157bbb8cc7">
         <dependencies>
-          <module ref="e698fac9-be95-401f-abc7-69942a3f3953(Kinematics.build)" kind="cl" />
+          <module ref="e698fac9-be95-401f-abc7-69942a3f3953(KinematicChains.build)" kind="cl" />
           <module ref="5276df98-ad74-4c83-b95e-80c2a30f443d(cosmo.dimensions.build)" kind="cl" />
           <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
         </dependencies>
@@ -203,16 +203,16 @@
     <zip destfile="${build.layout}/Component-${current_version}-${mps.build.number}-${mpsBootstrapCore.version}.zip">
       <fileset dir="${build.tmp}/default/Component-_dl__lbrace_current_version_rbrace_-_dl__lbrace_build.number_rbrace_-_dl__lbrace_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">Component.current_version=${current_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}cosmo.dimensions.current_version=${cosmo.dimensions.current_version}${line.separator}Kinematics.current_version=${Kinematics.current_version}</echo>
+    <echo file="${build.layout}/build.properties">Component.current_version=${current_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}dimensions.current_version=${dimensions.current_version}${line.separator}KinematicChains.current_version=${KinematicChains.current_version}</echo>
   </target>
   
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
-    <unzip src="${artifacts.cosmo.dimensions}/cosmo.dimensions.zip" dest="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip" />
-    <mkdir dir="${build.tmp}/deps/Kinematics/Kinematics.zip" />
-    <unzip src="${artifacts.Kinematics}/Kinematics.zip" dest="${build.tmp}/deps/Kinematics/Kinematics.zip" />
+    <mkdir dir="${build.tmp}/deps/dimensions/dimensions.zip" />
+    <unzip src="${artifacts.dimensions}/dimensions.zip" dest="${build.tmp}/deps/dimensions/dimensions.zip" />
+    <mkdir dir="${build.tmp}/deps/KinematicChains/KinematicChains.zip" />
+    <unzip src="${artifacts.KinematicChains}/KinematicChains.zip" dest="${build.tmp}/deps/KinematicChains/KinematicChains.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -237,8 +237,8 @@
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" />
-      <plugin path="${build.tmp}/deps/Kinematics/Kinematics.zip/Kinematics" />
-      <plugin path="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions" />
+      <plugin path="${build.tmp}/deps/KinematicChains/KinematicChains.zip/KinematicChains" />
+      <plugin path="${build.tmp}/deps/dimensions/dimensions.zip/cosmo.dimensions" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/collections.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -359,9 +359,9 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
-      <library file="${build.tmp}/deps/Kinematics/Kinematics.zip/Kinematics/languages/Kinematics/Kinematics.build.jar" />
-      <library file="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions/languages/cosmo.dimensions/Capabilities.jar" />
-      <library file="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions/languages/cosmo.dimensions/cosmo.dimensions.build.jar" />
+      <library file="${build.tmp}/deps/KinematicChains/KinematicChains.zip/KinematicChains/languages/KinematicChains.build.jar" />
+      <library file="${build.tmp}/deps/dimensions/dimensions.zip/cosmo.dimensions/languages/dimensions/Capabilities.jar" />
+      <library file="${build.tmp}/deps/dimensions/dimensions.zip/cosmo.dimensions/languages/dimensions/cosmo.dimensions.build.jar" />
       <chunk>
         <module file="${basedir}/languages/Component/Component.mpl" />
         <module file="${basedir}/solutions/Component.build/Component.build.msd" />
@@ -424,7 +424,7 @@
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.10.jar" />
-        <fileset file="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions/languages/cosmo.dimensions/Capabilities.jar" />
+        <fileset file="${build.tmp}/deps/dimensions/dimensions.zip/cosmo.dimensions/languages/dimensions/Capabilities.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -449,8 +449,8 @@
         <path location="${basedir}/solutions/Component.build/source_gen" />
       </src>
       <classpath>
-        <fileset file="${build.tmp}/deps/Kinematics/Kinematics.zip/Kinematics/languages/Kinematics/Kinematics.build.jar" />
-        <fileset file="${build.tmp}/deps/cosmo.dimensions/cosmo.dimensions.zip/cosmo.dimensions/languages/cosmo.dimensions/cosmo.dimensions.build.jar" />
+        <fileset file="${build.tmp}/deps/KinematicChains/KinematicChains.zip/KinematicChains/languages/KinematicChains.build.jar" />
+        <fileset file="${build.tmp}/deps/dimensions/dimensions.zip/cosmo.dimensions/languages/dimensions/cosmo.dimensions.build.jar" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/Component.build">
