@@ -9,7 +9,7 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="223r" ref="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)" />
-    <import index="5dv1" ref="r:194a337e-1208-4e47-b397-de3f7aa7ad6b(Kinematics.build)" />
+    <import index="5dv1" ref="r:194a337e-1208-4e47-b397-de3f7aa7ad6b(KinematicChains.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -145,16 +145,20 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
-        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
         <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
+      <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
+        <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
+        <property id="8137134783396676838" name="extracted" index="1HemKv" />
+        <property id="2889113830911481881" name="deployFolderName" index="3ZfqAx" />
+        <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
@@ -192,7 +196,7 @@
         <node concept="2Ry0Ak" id="1CfY4uLAI5z" role="iGT6I">
           <property role="2Ry0Am" value=".." />
           <node concept="2Ry0Ak" id="1CfY4uLAIaB" role="2Ry0An">
-            <property role="2Ry0Am" value="cosmo.dimensions" />
+            <property role="2Ry0Am" value="dimensions-dsl" />
             <node concept="2Ry0Ak" id="3ddCaS_x$vA" role="2Ry0An">
               <property role="2Ry0Am" value="build" />
               <node concept="2Ry0Ak" id="3ddCaS_x$w5" role="2Ry0An">
@@ -212,13 +216,13 @@
         <node concept="2Ry0Ak" id="7TsnP7f0kB7" role="iGT6I">
           <property role="2Ry0Am" value=".." />
           <node concept="2Ry0Ak" id="7TsnP7f0kCR" role="2Ry0An">
-            <property role="2Ry0Am" value="kinematics-dsl" />
+            <property role="2Ry0Am" value="kinematic-chains-dsl" />
             <node concept="2Ry0Ak" id="3eFKsYHXvcB" role="2Ry0An">
               <property role="2Ry0Am" value="build" />
               <node concept="2Ry0Ak" id="3eFKsYHXven" role="2Ry0An">
                 <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="3eFKsYHXvfI" role="2Ry0An">
-                  <property role="2Ry0Am" value="Kinematics" />
+                <node concept="2Ry0Ak" id="4bHRYgqSQBu" role="2Ry0An">
+                  <property role="2Ry0Am" value="KinematicChains" />
                 </node>
               </node>
             </node>
@@ -243,13 +247,13 @@
       </node>
     </node>
     <node concept="2sgV4H" id="3ddCaS_x$tS" role="1l3spa">
-      <ref role="1l3spb" to="223r:44Dwksk3ZMb" resolve="cosmo.dimensions" />
+      <ref role="1l3spb" to="223r:44Dwksk3ZMb" resolve="dimensions" />
       <node concept="398BVA" id="3ddCaS_x$uD" role="2JcizS">
         <ref role="398BVh" node="1CfY4uLAI4$" resolve="capabilities_home" />
       </node>
     </node>
     <node concept="2sgV4H" id="44Dwksk3ZRB" role="1l3spa">
-      <ref role="1l3spb" to="5dv1:2RDM3_ZXwQQ" resolve="Kinematics" />
+      <ref role="1l3spb" to="5dv1:2RDM3_ZXwQQ" resolve="KinematicChains" />
       <node concept="398BVA" id="44Dwksk3ZVs" role="2JcizS">
         <ref role="398BVh" node="44Dwksk3ZSW" resolve="kinematics_home" />
       </node>
@@ -356,7 +360,7 @@
         <ref role="m$f5T" node="2RDM3_ZXus6" resolve="ComponentGroup" />
       </node>
       <node concept="m$_yC" id="3ddCaS_x$BT" role="m$_yJ">
-        <ref role="m$_y1" to="223r:44Dwksk3ZM$" resolve="cosmo.dimensions" />
+        <ref role="m$_y1" to="223r:44Dwksk3ZM$" resolve="dimensions" />
       </node>
       <node concept="3_J27D" id="2RDM3_ZXuse" role="m_cZH">
         <node concept="3Mxwew" id="2RDM3_ZXusf" role="3MwsjC">
@@ -379,7 +383,6 @@
         <property role="BnDLt" value="false" />
         <property role="TrG5h" value="Component" />
         <property role="3LESm3" value="218e40b4-75d4-4de8-83e6-b31e4da8bcee" />
-        <property role="2GAjPV" value="false" />
         <node concept="55IIr" id="2RDM3_ZXus0" role="3LF7KH">
           <node concept="2Ry0Ak" id="2RDM3_ZXus1" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -393,31 +396,26 @@
         </node>
         <node concept="1SiIV0" id="2RDM3_ZXusl" role="3bR37C">
           <node concept="3bR9La" id="2RDM3_ZXusm" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1SiIV0" id="2RDM3_ZXusn" role="3bR37C">
           <node concept="3bR9La" id="2RDM3_ZXuso" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
         <node concept="1SiIV0" id="2RDM3_ZXusp" role="3bR37C">
           <node concept="3bR9La" id="2RDM3_ZXusq" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
         <node concept="1SiIV0" id="2RDM3_ZXusr" role="3bR37C">
           <node concept="3bR9La" id="2RDM3_ZXuss" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
         <node concept="1SiIV0" id="2RDM3_ZXust" role="3bR37C">
           <node concept="3bR9La" id="2RDM3_ZXusu" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
@@ -428,7 +426,6 @@
         </node>
         <node concept="1SiIV0" id="3ddCaS_x$$9" role="3bR37C">
           <node concept="3bR9La" id="3ddCaS_x$$a" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="223r:44Dwksk3ZMy" resolve="Capabilities" />
           </node>
         </node>
@@ -452,12 +449,32 @@
             </node>
           </node>
         </node>
+        <node concept="1BupzO" id="fbwdfvxZMo" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="fbwdfvxZMp" role="1HemKq">
+            <node concept="55IIr" id="fbwdfvxZMk" role="3LXTmr">
+              <node concept="2Ry0Ak" id="fbwdfvxZMl" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="fbwdfvxZMm" role="2Ry0An">
+                  <property role="2Ry0Am" value="Component" />
+                  <node concept="2Ry0Ak" id="fbwdfvxZMn" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="fbwdfvxZMq" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5acSRLwvbJS" role="2G$12L">
         <property role="BnDLt" value="false" />
         <property role="TrG5h" value="Component.build" />
         <property role="3LESm3" value="4691e682-eff5-47bd-bb71-48157bbb8cc7" />
-        <property role="2GAjPV" value="false" />
         <node concept="55IIr" id="5acSRLwvbJV" role="3LF7KH">
           <node concept="2Ry0Ak" id="5acSRLwvbP6" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
@@ -471,20 +488,12 @@
         </node>
         <node concept="1SiIV0" id="5acSRLwvbQw" role="3bR37C">
           <node concept="3bR9La" id="5acSRLwvbQx" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="223r:44Dwksk4008" resolve="cosmo.dimensions.build" />
           </node>
         </node>
         <node concept="1SiIV0" id="5acSRLwvbQy" role="3bR37C">
           <node concept="3bR9La" id="5acSRLwvbQz" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3eFKsYHYTsR" role="3bR37C">
-          <node concept="3bR9La" id="3eFKsYHYTsS" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="5dv1:44Dwksk40kY" resolve="Kinematics.build" />
           </node>
         </node>
         <node concept="3rtmxn" id="Ot_Fc7xq4G" role="3bR31x">
@@ -499,6 +508,32 @@
                   <property role="2Ry0Am" value="Component.build" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="fbwdfvxZMr" role="3bR37C">
+          <node concept="3bR9La" id="fbwdfvxZMs" role="1SiIV1">
+            <ref role="3bR37D" to="5dv1:3U2bBlMYz7" resolve="KinematicChains.build" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="fbwdfvxZMx" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="fbwdfvxZMy" role="1HemKq">
+            <node concept="55IIr" id="fbwdfvxZMt" role="3LXTmr">
+              <node concept="2Ry0Ak" id="fbwdfvxZMu" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="fbwdfvxZMv" role="2Ry0An">
+                  <property role="2Ry0Am" value="Component.build" />
+                  <node concept="2Ry0Ak" id="fbwdfvxZMw" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="fbwdfvxZMz" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
