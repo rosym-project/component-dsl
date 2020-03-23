@@ -251,22 +251,7 @@
         </node>
         <node concept="3_J27D" id="2RDM3_ZXusi" role="Nbhlr">
           <node concept="3Mxwew" id="6WODK$bWR0M" role="3MwsjC">
-            <property role="3MwjfP" value="Component-" />
-          </node>
-          <node concept="3Mxwey" id="6WODK$bWR3_" role="3MwsjC">
-            <ref role="3Mxwex" node="27wsLp9JmP9" resolve="current_version" />
-          </node>
-          <node concept="3Mxwew" id="6WODK$bWR2U" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="6WODK$bWVPb" role="3MwsjC">
-            <ref role="3Mxwex" to="ffeo:3IKDaVZnAxg" resolve="build.number" />
-          </node>
-          <node concept="3Mxwew" id="6WODK$bWVPa" role="3MwsjC">
-            <property role="3MwjfP" value="-" />
-          </node>
-          <node concept="3Mxwey" id="6WODK$bWR4e" role="3MwsjC">
-            <ref role="3Mxwex" to="ffeo:5HVSRHdVf2d" resolve="version" />
+            <property role="3MwjfP" value="Component" />
           </node>
           <node concept="3Mxwew" id="6WODK$bWR4d" role="3MwsjC">
             <property role="3MwjfP" value=".zip" />
