@@ -195,7 +195,7 @@
       <node concept="3clFbS" id="5g8KHvCWPOJ" role="2VODD2">
         <node concept="3clFbF" id="4LsNulDhFZt" role="3cqZAp">
           <node concept="Xl_RD" id="4LsNulDhFZs" role="3clFbG">
-            <property role="Xl_RC" value="Fix inconsistent instance" />
+            <property role="Xl_RC" value="Fix Inconsistent Instance" />
           </node>
         </node>
       </node>
