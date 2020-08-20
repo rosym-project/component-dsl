@@ -8,6 +8,7 @@
   <imports>
     <import index="l1zz" ref="r:7dde0f85-b752-4c1f-8bd0-8361dd2efaa4(Component.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
@@ -396,8 +397,8 @@
         <node concept="VPM3Z" id="5g8KHvCYkpf" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
-        <node concept="3F0ifn" id="5g8KHvCYkph" role="3EZMnx">
-          <property role="3F0ifm" value="Component name:" />
+        <node concept="PMmxH" id="1V0PB86HKSg" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="5g8KHvCYkqj" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -2948,8 +2949,8 @@
         <node concept="VPM3Z" id="7HuivzrfMyz" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
-        <node concept="3F0ifn" id="7HuivzrfMy$" role="3EZMnx">
-          <property role="3F0ifm" value="Component name:" />
+        <node concept="PMmxH" id="1V0PB86JKcn" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="7HuivzrfMy_" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
