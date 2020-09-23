@@ -18,6 +18,7 @@
       <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -1147,21 +1148,36 @@
     <node concept="2SaL7w" id="7HuivzrcAq$" role="2ZfVeh">
       <node concept="3clFbS" id="7HuivzrcAq_" role="2VODD2">
         <node concept="3clFbF" id="7HuivzrcAx3" role="3cqZAp">
-          <node concept="2OqwBi" id="7HuivzrcBHn" role="3clFbG">
-            <node concept="2OqwBi" id="7HuivzrcBg7" role="2Oq$k0">
-              <node concept="2OqwBi" id="7HuivzrcAJc" role="2Oq$k0">
-                <node concept="2Sf5sV" id="7HuivzrcAx2" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7HuivzrcB3Z" role="2OqNvi">
+          <node concept="22lmx$" id="1HXIG33uctz" role="3clFbG">
+            <node concept="2OqwBi" id="1HXIG33udjR" role="3uHU7w">
+              <node concept="2OqwBi" id="1HXIG33ucHn" role="2Oq$k0">
+                <node concept="2Sf5sV" id="1HXIG33ucuW" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1HXIG33ud7l" role="2OqNvi">
                   <ref role="3Tt5mk" to="l1zz:5g8KHvCW32w" resolve="componentDescription" />
                 </node>
               </node>
-              <node concept="3CFZ6_" id="7HuivzrcBtK" role="2OqNvi">
-                <node concept="3CFYIy" id="7HuivzrcByo" role="3CFYIz">
-                  <ref role="3CFYIx" to="l1zz:7Huivzrc$DI" resolve="Predefined" />
+              <node concept="1mIQ4w" id="1HXIG33ud_X" role="2OqNvi">
+                <node concept="chp4Y" id="1HXIG33udEO" role="cj9EA">
+                  <ref role="cht4Q" to="l1zz:7HuivzrfMyv" resolve="PredefinedComponent" />
                 </node>
               </node>
             </node>
-            <node concept="3x8VRR" id="7HuivzrcC1N" role="2OqNvi" />
+            <node concept="2OqwBi" id="7HuivzrcBHn" role="3uHU7B">
+              <node concept="2OqwBi" id="7HuivzrcBg7" role="2Oq$k0">
+                <node concept="2OqwBi" id="7HuivzrcAJc" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="7HuivzrcAx2" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7HuivzrcB3Z" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l1zz:5g8KHvCW32w" resolve="componentDescription" />
+                  </node>
+                </node>
+                <node concept="3CFZ6_" id="7HuivzrcBtK" role="2OqNvi">
+                  <node concept="3CFYIy" id="7HuivzrcByo" role="3CFYIz">
+                    <ref role="3CFYIx" to="l1zz:7Huivzrc$DI" resolve="Predefined" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7HuivzrcC1N" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>
