@@ -2978,6 +2978,9 @@
         <ref role="PMmxG" node="7HuivzrfMtz" resolve="ComponentProperties_Editor" />
       </node>
       <node concept="2iRkQZ" id="7HuivzrfMyX" role="2iSdaV" />
+      <node concept="3vyZuw" id="5GTDeybc908" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
 </model>
