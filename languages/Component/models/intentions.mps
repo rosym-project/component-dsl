@@ -136,6 +136,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
+      </concept>
       <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
@@ -602,8 +605,10 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaOR4" resolve="InterfaceGroup" />
                     <node concept="2pJxcG" id="7JjE9Fnb1Mu" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaOS9" resolve="interfaceName" />
-                      <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="28ntcv">
-                        <property role="Xl_RC" value="insert name here" />
+                      <node concept="WxPPo" id="1ZGA$uQegtj" role="28ntcv">
+                        <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="WxPPp">
+                          <property role="Xl_RC" value="insert name here" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -700,14 +705,18 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaMZ$" resolve="PositionPersistance" />
                     <node concept="2pJxcG" id="4lyQvwNTXNz" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3C" resolve="x" />
-                      <node concept="Xl_RD" id="4lyQvwNTYkw" role="28ntcv">
-                        <property role="Xl_RC" value="0.0" />
+                      <node concept="WxPPo" id="1ZGA$uQegtk" role="28ntcv">
+                        <node concept="Xl_RD" id="4lyQvwNTYkw" role="WxPPp">
+                          <property role="Xl_RC" value="0.0" />
+                        </node>
                       </node>
                     </node>
                     <node concept="2pJxcG" id="4lyQvwNTYqZ" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3I" resolve="y" />
-                      <node concept="Xl_RD" id="4lyQvwNTYvk" role="28ntcv">
-                        <property role="Xl_RC" value="0.0" />
+                      <node concept="WxPPo" id="1ZGA$uQegtl" role="28ntcv">
+                        <node concept="Xl_RD" id="4lyQvwNTYvk" role="WxPPp">
+                          <property role="Xl_RC" value="0.0" />
+                        </node>
                       </node>
                     </node>
                   </node>
