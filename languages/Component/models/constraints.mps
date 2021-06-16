@@ -2,6 +2,7 @@
 <model ref="r:08fdc263-d8e2-431c-8fd1-bbf0fb653686(Component.constraints)">
   <persistence version="9" />
   <languages>
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -348,9 +349,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="4lyQvwNTnWv">
-    <ref role="1M2myG" to="l1zz:1u89nBaZcNr" resolve="System" />
-  </node>
   <node concept="1M2fIO" id="kJuU8rAM0Y">
     <property role="3GE5qa" value="Instances" />
     <ref role="1M2myG" to="l1zz:5g8KHvCW0FH" resolve="ComponentInst" />
@@ -460,21 +458,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="344rOAF7g59">
-    <ref role="1M2myG" to="l1zz:1u89nBaZcNs" resolve="Connection" />
-    <node concept="1N5Pfh" id="344rOAF7gaQ" role="1Mr941">
-      <ref role="1N5Vy1" to="l1zz:1u89nBaZezs" resolve="source" />
-      <node concept="1dDu$B" id="344rOAFgR0f" role="1N6uqs">
-        <ref role="1dDu$A" to="l1zz:1u89nBaZcN_" resolve="OutputPort" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="344rOAF7Ys8" role="1Mr941">
-      <ref role="1N5Vy1" to="l1zz:1u89nBaZezp" resolve="target" />
-      <node concept="1dDu$B" id="344rOAFinym" role="1N6uqs">
-        <ref role="1dDu$A" to="l1zz:1u89nBaZcNt" resolve="InputPort" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="6rijOoKyotn">
     <property role="3GE5qa" value="Annotations.Comment" />
     <ref role="1M2myG" to="l1zz:6rijOoKun7_" resolve="SingleLineComment" />
@@ -545,6 +528,26 @@
       <ref role="1N5Vy1" to="l1zz:30W4IWrNIUp" resolve="port" />
       <node concept="1dDu$B" id="6gLnIBJDPfJ" role="1N6uqs">
         <ref role="1dDu$A" to="l1zz:1u89nBaZcNu" resolve="IPort" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="64jCRrVjZGi">
+    <property role="3GE5qa" value="References" />
+    <ref role="1M2myG" to="l1zz:64jCRrVjJGi" resolve="SourceRef" />
+    <node concept="1N5Pfh" id="64jCRrVjZGj" role="1Mr941">
+      <ref role="1N5Vy1" to="l1zz:7xTfi9IJNIV" resolve="ref" />
+      <node concept="1dDu$B" id="64jCRrVjZIK" role="1N6uqs">
+        <ref role="1dDu$A" to="l1zz:1u89nBaZcN_" resolve="OutputPort" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="64jCRrVjZUU">
+    <property role="3GE5qa" value="References" />
+    <ref role="1M2myG" to="l1zz:64jCRrVjJGl" resolve="TargetRef" />
+    <node concept="1N5Pfh" id="64jCRrVjZUV" role="1Mr941">
+      <ref role="1N5Vy1" to="l1zz:7xTfi9IJNIX" resolve="ref" />
+      <node concept="1dDu$B" id="64jCRrVjZUZ" role="1N6uqs">
+        <ref role="1dDu$A" to="l1zz:1u89nBaZcNt" resolve="InputPort" />
       </node>
     </node>
   </node>
