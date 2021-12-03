@@ -136,6 +136,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
+      </concept>
       <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
@@ -349,11 +352,11 @@
               <node concept="2OqwBi" id="5g8KHvCPzwo" role="2Oq$k0">
                 <node concept="1XNTG" id="5g8KHvCPz6X" role="2Oq$k0" />
                 <node concept="liA8E" id="5g8KHvCP$4A" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
                 </node>
               </node>
               <node concept="liA8E" id="5g8KHvCP$Vo" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.getParent()" resolve="getParent" />
               </node>
             </node>
           </node>
@@ -366,7 +369,7 @@
             </node>
             <node concept="2YIFZM" id="5g8KHvCPDoA" role="33vP2m">
               <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
-              <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextLeaf" />
+              <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="getNextLeaf" />
               <node concept="37vLTw" id="5g8KHvCPDIp" role="37wK5m">
                 <ref role="3cqZAo" node="5g8KHvCPw9G" resolve="parent" />
               </node>
@@ -410,14 +413,14 @@
                   <ref role="3cqZAo" node="5g8KHvCPAZK" resolve="loop" />
                 </node>
                 <node concept="liA8E" id="5g8KHvCQMND" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.isErrorState():boolean" resolve="isErrorState" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.isErrorState()" resolve="isErrorState" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="5g8KHvCPF8A" role="3cqZAp">
               <node concept="37vLTI" id="5g8KHvCPFCM" role="3clFbG">
                 <node concept="2YIFZM" id="5g8KHvCPGoQ" role="37vLTx">
-                  <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextLeaf" />
+                  <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="getNextLeaf" />
                   <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
                   <node concept="37vLTw" id="5g8KHvCQ0EG" role="37wK5m">
                     <ref role="3cqZAo" node="5g8KHvCPAZK" resolve="loop" />
@@ -461,11 +464,11 @@
           <node concept="37vLTI" id="5g8KHvCRf1h" role="3clFbG">
             <node concept="2YIFZM" id="5g8KHvCRg31" role="37vLTx">
               <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
-              <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextLeaf" />
+              <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="getNextLeaf" />
               <node concept="2OqwBi" id="5g8KHvCRh6r" role="37wK5m">
                 <node concept="1XNTG" id="5g8KHvCRgyB" role="2Oq$k0" />
                 <node concept="liA8E" id="5g8KHvCRhQj" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getSelectedCell" />
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell()" resolve="getSelectedCell" />
                 </node>
               </node>
             </node>
@@ -502,7 +505,7 @@
                   <ref role="3cqZAo" node="5g8KHvCPAZK" resolve="loop" />
                 </node>
                 <node concept="liA8E" id="5g8KHvCR9it" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.isErrorState():boolean" resolve="isErrorState" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.isErrorState()" resolve="isErrorState" />
                 </node>
               </node>
             </node>
@@ -510,7 +513,7 @@
               <node concept="37vLTI" id="5g8KHvCR9iv" role="3clFbG">
                 <node concept="2YIFZM" id="5g8KHvCR9iw" role="37vLTx">
                   <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
-                  <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextLeaf" />
+                  <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextLeaf(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="getNextLeaf" />
                   <node concept="37vLTw" id="5g8KHvCR9ix" role="37wK5m">
                     <ref role="3cqZAo" node="5g8KHvCPAZK" resolve="loop" />
                   </node>
@@ -602,8 +605,10 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaOR4" resolve="InterfaceGroup" />
                     <node concept="2pJxcG" id="7JjE9Fnb1Mu" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaOS9" resolve="interfaceName" />
-                      <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="28ntcv">
-                        <property role="Xl_RC" value="insert name here" />
+                      <node concept="WxPPo" id="7PDYDdALotO" role="28ntcv">
+                        <node concept="Xl_RD" id="7JjE9Fnb1Rd" role="WxPPp">
+                          <property role="Xl_RC" value="insert name here" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -700,14 +705,18 @@
                     <ref role="2pJxaS" to="l1zz:7JjE9FnaMZ$" resolve="PositionPersistance" />
                     <node concept="2pJxcG" id="4lyQvwNTXNz" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3C" resolve="x" />
-                      <node concept="Xl_RD" id="4lyQvwNTYkw" role="28ntcv">
-                        <property role="Xl_RC" value="0.0" />
+                      <node concept="WxPPo" id="7PDYDdALotP" role="28ntcv">
+                        <node concept="Xl_RD" id="4lyQvwNTYkw" role="WxPPp">
+                          <property role="Xl_RC" value="0.0" />
+                        </node>
                       </node>
                     </node>
                     <node concept="2pJxcG" id="4lyQvwNTYqZ" role="2pJxcM">
                       <ref role="2pJxcJ" to="l1zz:7JjE9FnaN3I" resolve="y" />
-                      <node concept="Xl_RD" id="4lyQvwNTYvk" role="28ntcv">
-                        <property role="Xl_RC" value="0.0" />
+                      <node concept="WxPPo" id="7PDYDdALotQ" role="28ntcv">
+                        <node concept="Xl_RD" id="4lyQvwNTYvk" role="WxPPp">
+                          <property role="Xl_RC" value="0.0" />
+                        </node>
                       </node>
                     </node>
                   </node>
