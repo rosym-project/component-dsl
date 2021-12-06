@@ -46,7 +46,10 @@
       </concept>
     </language>
     <language id="d6881f78-a85d-4c9e-931e-30879e67afdd" name="KinematicChains">
-      <concept id="4545946235936327391" name="KinematicChains.structure.KinematicChain" flags="ng" index="u53jr" />
+      <concept id="4545946235936327391" name="KinematicChains.structure.KinematicChain" flags="ng" index="u53jr">
+        <reference id="4545946235936327394" name="baseLink" index="u53jA" />
+        <reference id="4545946235936327401" name="tipLink" index="u53jH" />
+      </concept>
       <concept id="4545946235936274620" name="KinematicChains.structure.Link" flags="ng" index="u5KES" />
       <concept id="4545946235936274618" name="KinematicChains.structure.Robot" flags="ng" index="u5KEY">
         <child id="6177913345445151153" name="jointsAndLinks" index="3XQLF5" />
@@ -145,6 +148,8 @@
     <ref role="3SCSWm" node="1wUBj_SyNkQ" resolve="MyRobot" />
     <node concept="u53jr" id="1wUBj_SyNvu" role="1gKlZp">
       <property role="TrG5h" value="Arm" />
+      <ref role="u53jA" node="1wUBj_SyNld" resolve="l2" />
+      <ref role="u53jH" node="1wUBj_SyNkZ" resolve="l1" />
     </node>
   </node>
   <node concept="u5KEY" id="1wUBj_SyNkQ">
